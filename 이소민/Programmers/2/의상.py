@@ -1,5 +1,3 @@
-from itertools import combinations
-
 def solution(clothes):
     answer = 1
     dict = {}
@@ -9,10 +7,6 @@ def solution(clothes):
         else:
             dict[i[1]] += 1
     
-    for i in range(1,len(dict)+1):
-        for j in list(combinations(dict, i)):
-            tmp = 1
-            for k in j:
-                tmp *= dict[k]
-            answer += tmp
+    for i in dict.values():
+        answer *= (i+1)
     return answer-1
