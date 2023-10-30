@@ -5,9 +5,9 @@
 ### 코딩테스트 고득점 Kit - 해시
 
 - [ ] [포켓몬 - Level 1](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
-- [ ] [완주하지 못한 선수 - Level 1](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
-- [ ] [전화번호 목록 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
-- [ ] [의상 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
+- [x] [완주하지 못한 선수 - Level 1](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
+- [x] [전화번호 목록 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
+- [x] [의상 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
 - [ ] [베스트앨범 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 
 ### 코딩테스트 고득점 Kit - 깊이/너비 우선 탐색
