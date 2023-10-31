@@ -8,11 +8,11 @@
 - [x] [완주하지 못한 선수 - Level 1](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
 - [x] [전화번호 목록 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 - [x] [의상 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
-- [ ] [베스트앨범 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
+- [x] [베스트앨범 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 
 ### 코딩테스트 고득점 Kit - 깊이/너비 우선 탐색
 
-- [ ] [타겟 넘버 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
+- [x] [타겟 넘버 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 - [ ] [네트워크 - Level 3](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
 - [ ] [게임 맵 최단거리 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - [ ] [단어 변환 - Level 3](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
