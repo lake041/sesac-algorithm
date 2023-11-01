@@ -1,34 +1,38 @@
+from collections import Counter, defaultdict
+
+
 def solution(genres, plays):
-    answer = [] 
+    # 정답
+    answer = []
 
-    dic_genre = {}
-    for i in range(len(genres)):
-        if genres[i] not in dic_genre.keys():
-            dic_genre[genres[i]] = plays[i]
-        else:
-            dic_genre[genres[i]] += plays[i]
+    # 장르별 리스트
+    dic = defaultdict(list)
 
+    # 장르별 재생횟수 총합
+    g = Counter()
 
-    sorted_dict = dict(sorted(dic_genre.items(), key= lambda item:-item[1]))
-    # print(sorted_dict)
-    
-    for key in sorted_dict.keys():
-        a ={}
-        for i in range (len(plays)):        
-            if genres[i] == key:    
-                a[i] = plays[i]
-        sorted_a = dict(sorted(a.items(), key= lambda item:-item[1]))
-        print(sorted_a)
-        for i in range(len(sorted_a.keys())):
-            if i >1:
-                break
-            answer.append(list(sorted_a.keys())[i])
+    for idx, play in enumerate(plays):
+        # 장르명
+        tmp = genres[idx]
 
-    return answer
+        dic[tmp].append((idx, play))
+        g[tmp] += play
 
+        # 재생횟수별 정렬
+        g = g.most_common()
 
+        for i, j in g:
 
-a = ["classic", "pop", "classic", "classic", "pop"]	
-b = [500, 600, 150, 800, 2500]
+            tmp_list = dic[i]
 
-print(solution(a,b))
+            if len(tmp_list) >= 2:
+                # 장르 내에서 많이 재생된 노래를 먼저 수록합니다.
+                # 장르 내에서 재생 횟수가 같은 노래 중에서는 고유 번호가 낮은 노래를 먼저 수록합니다.
+                tmp_list.sort(key=lambda x: x[0])
+                tmp_list.sort(key=lambda x: x[1], reverse=True)
+                for k in range(2):
+                    answer.append(tmp_list[k][0])
+            else:
+                answer.append(tmp_list[0][0])
+
+        return answer
