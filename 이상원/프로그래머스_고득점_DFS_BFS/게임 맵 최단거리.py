@@ -19,7 +19,7 @@ def solution(maps):
                     visited[nx][ny] = True
                     maps[nx][ny] = maps[x][y] + 1
 
-    return maps[n-1][m-1] if maps[n-1][m-1] !=1 else -1
+    return maps[n-1][m-1] if maps[n-1][m-1] !=1 else -1 
 
 
 
