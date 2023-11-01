@@ -12,5 +12,5 @@ def solution(n, computers):
         if not visited[node_idx]:
             dfs(node_idx)
             answer += 1  # dfs 끝날때 cnt ++
-
+    #
     return answer

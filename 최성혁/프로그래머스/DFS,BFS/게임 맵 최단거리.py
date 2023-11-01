@@ -5,7 +5,7 @@ def solution(maps):
     n, m = len(maps), len(maps[0])  # 맵 크기
 
     dx = [1, -1, 0, 0]  # 상하좌우
-    dy = [0, 0, 1, -1]
+    dy = [0, 0, 1, -1]  #
 
     queue = deque()
     queue.append((1, 0, 0))  # 이동 칸, row, column
