@@ -38,7 +38,7 @@
 ### 코딩테스트 고득점 Kit - 스택
 
 13. [같은 숫자는 싫어 - Level 1](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
-14. [올바른 괄호 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+14. [올바른 괄호 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 15. [기능개발 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
 16. [프로세스 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 17. [다리를 지나는 트럭 - Level 2](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
