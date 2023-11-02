@@ -38,7 +38,7 @@ def solution(tickets):
             if tickets[i][0] == "ICN":
                 tickets[0],tickets[i] = tickets[i],tickets[0]
 
-    # 처음 나온 티켓들 answer에 append
+    # 처음 나온 티켓들 answer에 append.
     answer.append(tickets[0][0])
     answer.append(tickets[0][1])
 
