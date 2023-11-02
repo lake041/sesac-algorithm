@@ -26,7 +26,7 @@ from collections import deque
 #     return answer
 
 
-def solution2(tickets):
+def solution(tickets):
     q = deque()
     q.append([["ICN"], tickets.copy()])
     answer =[]
@@ -53,7 +53,7 @@ def solution2(tickets):
 
 
     answerlist.sort()
-    return answerlist
+    return answerlist[0]
 
 lst  =[["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]
 lst2 = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
@@ -63,7 +63,7 @@ lst2 = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","
 # lst2= lst[0:0] + lst[4:]
 # temp_ans = lst[:]
 # print(temp_ans)
-print(solution2(lst2))
+print(solution(lst2))
 
 # ["ICN", "ATL"]
 # ["ATL", "ICN"],    ["ATL","SFO"]
