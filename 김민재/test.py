@@ -1,2 +1,4 @@
-for x in range(ord('A'), ord('Z')+1):
-    print(x)
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+print(x==y)
