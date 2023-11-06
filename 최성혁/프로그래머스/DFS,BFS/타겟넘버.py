@@ -1,18 +1,15 @@
-from collections import deque
+count = 0
+def dfs(numbers,level,target,sum):
+    global count
+    if len(numbers) == level:
+        if target == sum:
+            count += 1
+        return
+    dfs(numbers,level+1,target,sum + numbers[level])
+    dfs(numbers,level+1,target,sum - numbers[level])
+
 
 def solution(numbers, target):
-    answer = 0
-    queue = deque([(0, 0)])  # (현재까지의 합, 인덱스)를 저장하는 큐
 
-    while queue:
-        current_sum, index = queue.popleft()
-
-        if index == len(numbers):
-            if current_sum == target:
-                answer += 1
-        else:
-            number = numbers[index]
-            queue.append((current_sum + number, index + 1))
-            queue.append((current_sum - number, index + 1))
-
-    return answer
+    dfs(numbers,0,target,0)
+    return count
