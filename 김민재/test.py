@@ -1,2 +1,3 @@
-x = [[1, 2], [2, 3]]
-print(x.pop()[0])
+from collections import deque
+
+x = deque([0, 0, 0])
