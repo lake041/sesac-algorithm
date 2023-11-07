@@ -1,6 +1,10 @@
-x = ['0', '10', '1', '0']
+from heapq import heappush
 
-y = '0100'
-y = y[1:]
-print(''.join(x))
-print(y)
+x = []
+
+heappush(x, 1)
+heappush(x, 3)
+heappush(x, 5)
+heappush(x, 0)
+
+print(x)
