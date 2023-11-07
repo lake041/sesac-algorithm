@@ -1,18 +1,8 @@
-participant = ["mislav", "stanko", "mislav", "ana"]
-completion = ["stanko", "ana", "mislav"]
+from collections import deque
+a = deque([1,1,2,3,4])
+b = [1,2,2,5,7,8]
 
-participant = sorted(participant)
-completion = sorted(completion)
-answer = ""
-for i in range(len(participant)):
-    try:
-        if participant[i] == completion[i]:
-            continue
-        else:
-            answer = str(participant[i])
-            print(answer)
-            break
-    except:
-        answer = str(participant[-1])
-        print(answer)
-        break
+
+for i in range(len(a)):
+    if a[i] not in b:
+        print(a[i])
