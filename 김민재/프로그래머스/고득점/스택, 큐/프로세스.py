@@ -1,7 +1,6 @@
 from collections import deque
 
-# 1. 생각나는대로 푼 풀이
-'''
+# 더 깔끔한 풀이로 다시 풀려고 했는데 이 풀이를 유지한다.
 def solution(priorities, location):
     x = []
     for i in range(len(priorities)):
@@ -22,6 +21,3 @@ def solution(priorities, location):
             priorities.append((priority, index))
         
     return cnt
-'''
-
-# 2. 깔끔한 풀이로 추가 예정
