@@ -1,3 +1,4 @@
+
 import heapq
 
 def solution(operations):
@@ -30,7 +31,7 @@ def solution(operations):
     elif len(lst) == 0:
         return answer
     
-    return answer
+    print(answer) 
 
 def change_heap(lst):
     temp = len(lst)
@@ -42,5 +43,17 @@ def change_heap(lst):
     return lst2
 
 
-lst = ["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"]
-print(solution(lst))
+# lst = ["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"]
+# print(solution(lst))
+
+
+lst2 =[9,8,7,6,5]
+heapq.heappush(lst2, 1)
+print(lst2)
+# lst2.sort()
+# print(lst2)
+# lst2 =[9,8,7,6,5]
+# heappush(lst2, 1)
+for _ in range(len(lst2)):
+  print(heapq.heappop(lst2))
+# print(sorted(lst2))
