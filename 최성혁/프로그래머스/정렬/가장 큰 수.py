@@ -8,7 +8,6 @@ def solution(numbers):
 
     # 1000 이하의 값이므로 3자리수 비교를위해 *3
     numbers = sorted(numbers, reverse=True, key=lambda x: x * 3)
-
     answer = answer.join(numbers)
 
     return str(int(answer))
