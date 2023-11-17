@@ -1,5 +1,5 @@
 def solution(routes):
-    answer = 0
+    routes.sort()
     ans_lst = [routes.pop(0)]
     while routes:
         pop = routes.pop(0)
@@ -18,5 +18,5 @@ def solution(routes):
 
 
     return len(ans_lst)
-
+ 
 print(solution([[-20,-15], [-14,-5], [-18,-13], [-5,-3]]))
