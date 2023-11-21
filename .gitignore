@@ -364,4 +364,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# DOCS
+temp.md
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm,windows,macos

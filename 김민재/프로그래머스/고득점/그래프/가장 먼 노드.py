@@ -1,6 +1,5 @@
 from sys import maxsize
 from collections import deque
-from itertools import product
 
 def solution(N, edge):
     graph = [[] for _ in range(N)]

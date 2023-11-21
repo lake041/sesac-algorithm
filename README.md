@@ -102,3 +102,57 @@
 46. [순위 - Level 3](https://school.programmers.co.kr/learn/courses/30/lessons/49191)
 47. [방의 개수 - Level 5](https://school.programmers.co.kr/learn/courses/30/lessons/49190)
 </details>
+
+<details>
+<summary>5주차 (11.27 ~ 12.01)</summary>
+
+|     | 제목                                                                                         |                                        | 난이도 | 완료한 사람 | 정답률 |
+| --- | -------------------------------------------------------------------------------------------- | -------------------------------------- | ------ | ----------- | ------ |
+| 월  | [상담원 인원](https://school.programmers.co.kr/learn/courses/30/lessons/214288)              | 2023 현대모비스 알고리즘 경진대회 예선 | Lv. 3  | 549명       | 10%    |
+| 월  | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)                |                                        | Lv. 2  | 4,351명     | 44%    |
+| 월  | [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)                |                                        | Lv. 2  | 5,228명     | 47%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                         |                                        |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                         |                                        |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                         |                                        |        |             |        |
+| 수  | [에어컨](https://school.programmers.co.kr/learn/courses/30/lessons/214289)                   | 2023 현대모비스 알고리즘 경진대회 예선 | Lv. 3  | 361명       | 6%     |
+| 수  | [연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988) |                                        | Lv. 3  | 2,390명     | 41%    |
+| 수  | [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870)    |                                        | Lv. 2  | 6,355명     | 50%    |
+| 목  | [유사 칸토어 비트열](https://school.programmers.co.kr/learn/courses/30/lessons/148652)       |                                        | Lv. 2  | 1,300명     | 21%    |
+| 목  | [부대복귀](https://school.programmers.co.kr/learn/courses/30/lessons/132266)                 |                                        | Lv. 3  | 2,016명     | 39%    |
+| 목  | [테이블 해시 함수](https://school.programmers.co.kr/learn/courses/30/lessons/147354)         |                                        | Lv. 2  | 3,051명     | 43%    |
+| 금  | [당구 연습](https://school.programmers.co.kr/learn/courses/30/lessons/169198)                |                                        | Lv. 2  | 1,876명     | 19%    |
+| 금  | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187)     |                                        | Lv. 2  | 3,886명     | 37%    |
+| 금  | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)              |                                        | Lv. 2  | 5,594명     | 48%    |
+
+</details>
+
+<!-- | 제목                                                                                     |                                        | 난이도 | 완료한 사람 | 정답률 |
+| ---------------------------------------------------------------------------------------- | -------------------------------------- | ------ | ----------- | ------ |
+| 수  | [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962)            |     | Lv. 2  | 3,765명     | 37%    |
+| [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188)          |                                        | Lv. 2  | 6,559명     | 34%    |
+| [아방가르드 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/181186)    |                                        | Lv. 3  | 382명       | 7%     |
+| 수  | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539)     |     | Lv. 2  | 6,768명     | 57%    |
+| [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927)            |                                        | Lv. 2  | 4,036명     | 41%    |
+| [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199)          |                                        | Lv. 2  | 3,336명     | 43%    |
+| [혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585)   |                                        | Lv. 2  | 2,952명     | 35%    |
+| [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)        |                                        | Lv. 2  | 5,522명     | 55%    |
+| [시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)            |                                        | Lv. 2  | 3,473명     | 46%    |
+| [인사고과](https://school.programmers.co.kr/learn/courses/30/lessons/152995)             |                                        | Lv. 3  | 2,316명     | 36%    |
+| [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | 2023 KAKAO BLIND RECRUITMENT           | Lv. 2  | 4,668명     | 30%    |
+| [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)    | 2023 KAKAO BLIND RECRUITMENT           | Lv. 2  | 4,614명     | 35%    |
+| [표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367) | 2023 KAKAO BLIND RECRUITMENT           | Lv. 3  | 2,181명     | 28%    |
+| [표 병합](https://school.programmers.co.kr/learn/courses/30/lessons/150366)              | 2023 KAKAO BLIND RECRUITMENT           | Lv. 3  | 1,289명     | 23%    |
+| [미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365)     | 2023 KAKAO BLIND RECRUITMENT           | Lv. 3  | 1,953명     | 29%    |
+| [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)    |                                        | Lv. 2  | 4,449명     | 47%    |
+| [디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085)          |                                        | Lv. 2  | 3,762명     | 41%    |
+| [점 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/140107)              |                                        | Lv. 2  | 4,156명     | 43%    |
+| [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)            |                                        | Lv. 2  | 11,469명    | 67%    |
+| [억억단을 외우자](https://school.programmers.co.kr/learn/courses/30/lessons/138475)      |                                        | Lv. 3  | 896명       | 18%    |
+| [숫자 타자 대회](https://school.programmers.co.kr/learn/courses/30/lessons/136797)       |                                        | Lv. 3  | 645명       | 15%    |
+| [숫자 카드 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/135807)     |                                        | Lv. 2  | 3,630명     | 46%    |
+| [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239)      |                                        | Lv. 2  | 2,363명     | 39%    |
+| [등대](https://school.programmers.co.kr/learn/courses/30/lessons/133500)                 |                                        | Lv. 3  | 708명       | 16%    |
+| [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)      |                                        | Lv. 2  | 5,486명     | 56%    |
+| [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704)             |                                        | Lv. 2  | 4,735명     | 54%    |
+| [2차원 동전 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/131703)    |                                        | Lv. 3  | 634명       | 21%    |
+| [고고학 최고의 발견](https://school.programmers.co.kr/learn/courses/30/lessons/131702)   |                                        | Lv. 3  | 337명       | 9%     | -->
