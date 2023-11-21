@@ -10,7 +10,7 @@ def solution(game_board, table):
     dy = [-1, 0, 1, 0]
     dx = [0, 1, 0, -1]
 
-    pieces = []
+    collections = []
     visited = [[False]*L for _ in range(L)]
     for y, x in product(range(L), range(L)):
         if table[y][x]==0 or visited[y][x]:
@@ -34,10 +34,10 @@ def solution(game_board, table):
         rotate90 = sorted([(tx, -ty) for ty, tx in rotate0])
         rotate180 = sorted([(tx, -ty) for ty, tx in rotate90])
         rotate270 =  sorted([(tx, -ty) for ty, tx in rotate180])
-        piece = [rotate0, rotate90, rotate180, rotate270, len(dots)]
-        pieces.append(piece)
+        collection = [rotate0, rotate90, rotate180, rotate270]
+        collections.append(collection)
     
-    used = [False]*len(pieces)
+    used = [False]*len(collections)
     answer = 0
 
     for y, x in product(range(L), range(L)):
@@ -61,18 +61,18 @@ def solution(game_board, table):
         
         dots.sort()
 
-        for i in range(len(pieces)):
+        for i in range(len(collections)):
             if used[i]:
                 continue
-            collection = pieces[i]
+            collection = collections[i]
             same = False
-            for piece in collection[:4]:
+            for piece in collection:
                 if dots == piece:
                     same = True
                     used[i] = True
                     for zy, zx in dots:
                         game_board[y+zy][x+zx] = 1
-                    answer += collection[-1]
+                    answer += len(piece)
                     break
             if same:
                 break
