@@ -17,7 +17,6 @@ def solution(distance, rocks, n):
     
     ans = 0
     left, right = 1, distance
-    debug = []
     while left <= right:
         mid = (left + right)//2
         

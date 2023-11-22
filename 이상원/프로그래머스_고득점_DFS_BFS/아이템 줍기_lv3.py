@@ -24,10 +24,6 @@ def solution(rectangle, characterX, characterY, itemX, itemY):
     #     x1, y1, x2, y2 = rec
     #     for i in range(0, x2-x1)
             
-
-
-
-
     return squres
 
 lst = solution([[1,1,7,4],[3,2,5,5],[4,3,6,9],[2,6,8,8]],	1,	3,	7,	8)
