@@ -1,9 +1,11 @@
-# 전반적으로 우아하지 않음
-# 대각선 처리가 미흡함
-# 세로 처리도 좌표로 접근해보자
-# 그냥 모든 경우의 수를 다 구한다면? 
+from itertools import product
 
-itertools import product
+'''
+홀짝에 따른 개수가 안 맞을 때
+빙고가 2개 이상인
+O가 이겼는데 OX 개수가 같다면 X가 한 번 더 뒀다는 것
+X가 이겼는데 O가 더 많다면 O가 한 번 더 뒀다는 것
+'''
 
 def end_check(bod):
     for row in bod:
@@ -18,13 +20,6 @@ def end_check(bod):
             o_win += 1
         if row == ["X", "X", "X"]:
             x_win += 1
-
-'''
-홀짝에 따른 개수가 안 맞을 때
-빙고가 2개 이상인
-O가 이겼는데 OX 개수가 같다면 X가 한 번 더 뒀다는 것
-X가 이겼는데 O가 더 많다면 O가 한 번 더 뒀다는 것
-'''
 
 def solution(board):
     bod = [list(row) for row in board]

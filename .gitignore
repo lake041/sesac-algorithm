@@ -365,6 +365,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # DOCS
-temp.md
+README.py
+storage.md
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm,windows,macos
