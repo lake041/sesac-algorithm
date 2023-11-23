@@ -32,5 +32,3 @@ def solution(n, t, m, timetable):
         # 마지막 버스의 자리가 꽉찬 경우
         if cnt == m:
             return num_to_char(last-1) if last else num_to_char(bus[0])
-            
-    return 0
