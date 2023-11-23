@@ -1,9 +1,27 @@
 def solution(money):
-    dp1 = [0] * len(money)
-    dp2 = [0] * len(money)
-    dp1[0], dp2[0] = money[0], 0
-    for i in range(1, len(money)-1):
-        dp1[i] = max(dp1[i-1], dp1[i-2] + money[i])
-    for i in range(1, len(money)):
-        dp2[i] = max(dp2[i-1], dp2[i-2] + money[i])
-    return max(max(dp1), max(dp2))
+    answer = 0
+
+    n = len(money)
+
+    # 처음 터는 경우
+    dp = [[0, 0] for _ in range(n)]
+    dp[0][1] = money[0]
+    max_value = 0
+    for idx in range(1, n):
+        dp[idx][0] = max(dp[idx - 1][1], max_value)
+        dp[idx][1] = dp[idx - 1][0] + money[idx]
+        max_value = max(max_value, max(dp[idx]))
+
+    answer = max(answer, dp[-1][0])
+
+    # 처음 안터는 경우
+    dp = [[0, 0] for _ in range(n)]
+    max_value = 0
+    for idx in range(1, n):
+        dp[idx][0] = max(dp[idx - 1][1], max_value)
+        dp[idx][1] = dp[idx - 1][0] + money[idx]
+        max_value = max(max_value, max(dp[idx]))
+
+    answer = max(answer, max(dp[-1]))
+
+    return answer
