@@ -27,18 +27,20 @@ dp[n][c]: n 메모리까지 사용해서 c cost 이하로 확보할 수 있는 �
 dp[c][n] = max(dp[c-cost[n]][n-1] + size[n], dp[c][n-1])
 """
 
-def cal_dp():
-    global N, M
-    dp = [[0]*(N+1) for _ in range(100*N+1)]
-    for c in range(1, 100*N+1):
-        for n in range(1, N+1):
-            if c-cost[n] >= 0:
-                dp[c][n] = max(dp[c-cost[n]][n-1] + size[n], dp[c][n-1])
-            else:
-                dp[c][n] = dp[c][n-1]
-            
-            if dp[c][n] >= M:
-                print(c)
-                return
+n, m = map(int, input().split())
+memory = [0] + list(map(int, input().split()))
+cost = [0] + list(map(int, input().split()))
+max_cost = sum(cost)+1
+dp = [[0]*max_cost for _ in range(n+1)]
+ans = 10001
 
-cal_dp()
+for i in range(1, n+1):
+    ci, mi = cost[i], memory[i]
+    for j in range(max_cost):
+        dp[i][j] = dp[i-1][j]
+    for j in range(ci, max_cost):
+        dp[i][j] = max(dp[i-1][j-ci] + mi, dp[i][j])
+        if dp[i][j] >= m:
+            ans = min(ans, j)
+
+print(ans)
