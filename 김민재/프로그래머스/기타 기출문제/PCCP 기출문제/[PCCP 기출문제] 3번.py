@@ -6,7 +6,7 @@ def sec_to_hhmmss(sec):
     
 
 def solution(h1, m1, s1, h2, m2, s2):
-    memo, hs, ms = [], [], []
+    hs, ms = [], [], []
     for i in range(60):
         ms.append(3600 * i / 59)
     ms.pop()

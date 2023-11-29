@@ -60,8 +60,8 @@
 | 수  | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)             | 탐욕법              | Lv. 2  | 15,656명    | 35%    |
 | 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)         | 탐욕법              | Lv. 2  | 23,431명    | 51%    |
 | 목  | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)             | 탐욕법              | Lv. 2  | 28,385명    | 69%    |
-| 월  | [섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861)          | 탐욕법              | Lv. 3  | 11,753명    | 46%    |
-| 월  | [단속카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884)           | 탐욕법              | Lv. 3  | 12,094명    | 54%    |
+| 금  | [섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861)          | 탐욕법              | Lv. 3  | 11,753명    | 46%    |
+| 금  | [단속카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884)           | 탐욕법              | Lv. 3  | 12,094명    | 54%    |
 
 </details>
 
@@ -91,9 +91,9 @@
 | 월  | [[1차] 셔틀버스](https://school.programmers.co.kr/learn/courses/30/lessons/17678)            | 2018 KAKAO BLIND RECRUITMENT | Lv. 3  | 6,106명     | 42%    |
 | 월  | [[1차] 뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)     | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 17,329명    | 61%    |
 | 월  | [[1차] 추석 트래픽](https://school.programmers.co.kr/learn/courses/30/lessons/17676)         | 2018 KAKAO BLIND RECRUITMENT | Lv. 3  | 7,455명     | 21%    |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                         |                              |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                         |                              |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                         |                              |        |             |        |
+| 화  | [[1차] 프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679)         | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 10,926명    | 55%    |
+| 화  | [[1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)                | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 17,340명    | 63%    |
+| 화  | [[3차] 방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)            | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 8,644명     | 48%    |
 | 수  | [[3차] 압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684)                | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 11,085명    | 59%    |
 | 수  | [[3차] 파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686)         | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 10,760명    | 56%    |
 | 수  | [[3차] n진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687)          | 2018 KAKAO BLIND RECRUITMENT | Lv. 2  | 11,285명    | 59%    |
