@@ -51,6 +51,10 @@ print(solution(1,	1,	5,	["08:00", "08:01", "08:02", "08:03"]))
 l = ["31", "23", "135"]
 
 
+
+
+
+
 def solution(n, t, m, timetable):
     answer = ''
     time=timetable.copy()
