@@ -128,25 +128,3 @@
 | 금  | [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)     |                                | Lv. 2  | 5,522명     | 55%    |
 
 </details>
-
-<details>
-<summary>6주차 (11.04 ~ 12.08)</summary>
-
-|     | 제목                                                                               |                                | 난이도 | 완료한 사람 | 정답률 |
-| --- | ---------------------------------------------------------------------------------- | ------------------------------ | ------ | ----------- | ------ |
-| 월  | [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)            | 2019 카카오 개발자 겨울 인턴십 | Lv. 2  | 19,927명    | 63%    |
-| 월  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)     | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 8,273명     | 49%    |
-| 월  | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 6,647명     | 47%    |
-
-| 수 | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | 월간 코드 챌린지 시즌1 | Lv. 2 | 22,076명 | 76% |
-| 수 | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) | | Lv. 2 | 29,964명 | 77% |
-
-| 목 | [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962) | | Lv. 2 | 3,765명 | 37% |
-| 목 | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) | | Lv. 2 | 3,886명 | 37% |
-| 목 | [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | | Lv. 2 | 5,228명 | 47% |
-
-| 금 | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) | | Lv. 2 | 6,768명 | 57% |
-| 금 | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | | Lv. 2 | 4,351명 | 44% |
-| 금 | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | | Lv. 2 | 4,036명 | 41% |
-
-</details>
