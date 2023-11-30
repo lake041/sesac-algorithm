@@ -17,7 +17,6 @@ def solution(n):
     target = n + 1
     while 1:
         binary_target, binary_n = bin(target), bin(n)
-        #print(binaryCnt(binary_target, binary_n))
         if binaryCnt(binary_target, binary_n):
             return target
         target += 1
