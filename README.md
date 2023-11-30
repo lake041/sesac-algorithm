@@ -109,22 +109,22 @@
 <details>
 <summary>6주차 (11.04 ~ 12.08)</summary>
 
-|     | 제목                                                                                     |                                | 난이도 | 완료한 사람 | 정답률 |
-| --- | ---------------------------------------------------------------------------------------- | ------------------------------ | ------ | ----------- | ------ |
-| 월  | [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)                  | 2019 카카오 개발자 겨울 인턴십 | Lv. 2  | 19,927명    | 63%    |
-| 월  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)           | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 8,273명     | 49%    |
-| 월  | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)       | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 6,647명     | 47%    |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                                |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                                |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                                |        |             |        |
-| 수  | [매칭 점수](https://school.programmers.co.kr/learn/courses/30/lessons/42893)             | 2019 KAKAO BLIND RECRUITMENT   | Lv. 3  | 2,240명     | 21%    |
-| 수  | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)    | 월간 코드 챌린지 시즌1         | Lv. 2  | 22,076명    | 76%    |
-| 수  | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)         |                                | Lv. 2  | 29,964명    | 77%    |
-| 목  | [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962)        |                                | Lv. 2  | 3,765명     | 37%    |
-| 목  | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |                                | Lv. 2  | 3,886명     | 37%    |
-| 목  | [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)            |                                | Lv. 2  | 5,228명     | 47%    |
-| 금  | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) |                                | Lv. 2  | 6,768명     | 57%    |
-| 금  | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)            |                                | Lv. 2  | 4,351명     | 44%    |
-| 금  | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927)            |                                | Lv. 2  | 4,036명     | 41%    |
+|     | 제목                                                                                  |                                | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------- | ------------------------------ | ------ | ----------- | ------ |
+| 월  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)        | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 8,273명     | 49%    |
+| 월  | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | 월간 코드 챌린지 시즌1         | Lv. 2  | 22,076명    | 76%    |
+| 월  | [n^2 배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/87390)    | 월간 코드 챌린지 시즌3         | Lv. 2  | 10,256명    | 64%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                  |                                |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                  |                                |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                  |                                |        |             |        |
+| 수  | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)    | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 6,647명     | 47%    |
+| 수  | [3 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12902)       |                                | Lv. 2  | 3,419명     | 31%    |
+| 수  | [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985)        | 2017 팁스타운                  | Lv. 2  | 17,576명    | 68%    |
+| 목  | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)             | 2019 KAKAO BLIND RECRUITMENT   | Lv. 2  | 9,049명     | 40%    |
+| 목  | [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)         |                                | Lv. 2  | 11,469명    | 67%    |
+| 목  | [숫자 카드 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/135807)  |                                | Lv. 2  | 3,630명     | 46%    |
+| 금  | [길 찾기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/42892)       | 2019 KAKAO BLIND RECRUITMENT   | Lv. 3  | 5,549명     | 36%    |
+| 금  | [오픈채팅방 ](https://school.programmers.co.kr/learn/courses/30/lessons/42888)        | 2019 KAKAO BLIND RECRUITMENT   | Lv. 2  | 29,629명    | 57%    |
+| 금  | [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)     |                                | Lv. 2  | 5,522명     | 55%    |
 
 </details>

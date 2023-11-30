@@ -8,19 +8,20 @@ memo = {
     'F#':'M', 
     'G#':'N', 
     'A#':'O', 
+    'E#':'Z', 
 }
 
 def convert_note(string):
     final = ''
     i = 0
-    while i < len(string):
-        if i < len(string)-1 and string[i+1]=='#':
-            note = string[i] + string[i+1]
-            final += memo.get(note, note)
-            i += 2
+    for index, char in enumerate(string):
+        if char == '#':
+            continue
+        elif index < len(string)-1 and string[index+1]=='#':
+            note = string[index] + string[index+1]
+            final += memo[note]
         else:
-            final += string[i]
-            i += 1
+            final += char
             
     return final
 
