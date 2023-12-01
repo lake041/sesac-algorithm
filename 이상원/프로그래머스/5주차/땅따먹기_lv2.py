@@ -52,13 +52,13 @@ def solution2(land):
 
 from itertools import product
 def solution3(land):
-    print(land)
     for i,j in product(range(1, len(land)), range(len(land[0]))):
         land[i][j] += max(land[i - 1][:j] + land[i - 1][j + 1:])
-    
-    print(land)
     return max(land[-1])
 
+# n-1 행을 돌면서 인덱스[j]값을 제외한 최댓값을 n행 인덱스[j]에 더해줌
+# 프로덕트 적용해 봄
+# 생각보다 허무하게 쉬우면서 생각해내기 어려운듯한 dp 문제,,,
 
 
 print(solution2([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))
