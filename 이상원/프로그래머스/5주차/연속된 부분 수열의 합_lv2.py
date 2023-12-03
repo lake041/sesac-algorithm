@@ -15,19 +15,19 @@ def solution2(elements):
 from sys import maxsize
 # sequence는 비내림차순으로 정렬되어 있습니다.
 def solution(sequence, k):
-    anslst = []
+    anslst = [0,0]
     if k in sequence:
         x = sequence.index(k)
         return [x,x]
-    # idx = k-1
-    # if sequence[-1] > k:
-    #     while 1:
-    #         if idx not in sequence:
-    #             idx -=1
-    #         else:
-    #             idx = sequence.index(idx)
-    #             sequence = sequence[0:idx+1]
-    #             break
+    idx = k-1
+    if sequence[-1] > k:
+        while 1:
+            if idx not in sequence:
+                idx -=1
+            else:
+                idx = sequence.index(idx)
+                sequence = sequence[0:idx+1]
+                break
     # sequence.reverse()
     # for i in range(len(sequence)-1, -1, -1):
     #     for j in range(i, -1, -1):
@@ -40,16 +40,17 @@ def solution(sequence, k):
     interval = maxsize
     for j in range(len(sequence)-1, -1, -1):
         for i in range(j, -1, -1):
-            if interval < i-j+1:
+            if j-i+1 > interval:
                 break
             sums = sum(sequence[i:j+1])
             if sums == k:
-                anslst.append([i,j])
+                anslst = [i,j]
+                interval = j-i+1
             elif sums > k:
                 break
-    anslst.sort(key=lambda x: (x[1]-x[0], x[0]))
-    return anslst[0]
+    # anslst.sort(key=lambda x: x[0])
+    return anslst
 
-
-lst =[1, 1, 1, 2, 3, 4, 5,5]
-print(solution(lst,5))
+[1, 1, 1, 2, 3, 4, 5]
+lst =[2, 2, 2, 2, 2]
+print(solution(lst,6))
