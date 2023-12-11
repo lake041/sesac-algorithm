@@ -1,14 +1,12 @@
 
 def solution(sequence):
     answer = 0
-    sequence2 = sequence[:]
-    purse = 1
-    
+    seq = sequence.copy()
+    pur = 1
     for i in range(len(sequence)):
-        sequence[i] *= purse
-        purse *= -1
-        sequence2[i] *= purse
-        
+        sequence[i] *= pur
+        pur *= -1
+        seq[i] *= pur
     max_sum = 0
     tmp = 0
     for s in sequence:
@@ -16,9 +14,8 @@ def solution(sequence):
         if tmp < 0:
             tmp = 0
         max_sum = max(max_sum, tmp)
-    
     tmp = 0
-    for s in sequence2:
+    for s in seq:
         tmp += s
         if tmp < 0:
             tmp = 0
