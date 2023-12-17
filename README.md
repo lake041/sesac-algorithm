@@ -131,3 +131,25 @@
 | 금  | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)          | 2019 KAKAO BLIND RECRUITMENT   | Lv. 2  | 9,049명     | 40%    |
 
 </details>
+
+<summary>7주차 (12.11 ~ 12.15)</summary>
+
+|     | 제목                                                                                       |                                             | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------ | ------------------------------------------- | ------ | ----------- | ------ |
+| 월  | [최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)         |                                             | Lv. 2  | 37,677명    | 79%    |
+| 목  | [숫자 카드 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/135807)       |                                             | Lv. 2  | 3,630명     | 46%    |
+| 금  | [부대복귀](https://school.programmers.co.kr/learn/courses/30/lessons/132266)               |                                             | Lv. 3  | 2,016명     | 39%    |
+| 월  | [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) |                                             | Lv. 2  | 29,131명    | 77%    |
+| 금  | [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)          |                                             | Lv. 2  | 5,522명     | 55%    |
+| 월  | [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188)            |                                             | Lv. 2  | 6,559명     | 34%    |
+| 월  | [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)         | 2017 팁스타운                               | Lv. 2  | 24,706명    | 72%    |
+| 목  | [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)              |                                             | Lv. 2  | 11,469명    | 67%    |
+| 월  | [혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585)     |                                             | Lv. 2  | 2,952명     | 35%    |
+| 월  | [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)             |                                             | Lv. 2  | 24,146명    | 75%    |
+| 월  | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485)    | 2021 Dev-Matching: 웹 백엔드 개발자(상반기) | Lv. 2  | 11,342명    | 47%    |
+| 월  | [인사고과](https://school.programmers.co.kr/learn/courses/30/lessons/152995)               |                                             | Lv. 3  | 2,316명     | 36%    |
+| 월  | [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)             |                                             | Lv. 2  | 31,336명    | 73%    |
+| 월  | [다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486)        | 2021 Dev-Matching: 웹 백엔드 개발자(상반기) | Lv. 3  | 5,798명     | 40%    |
+| 월  | [혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)       |                                             | Lv. 2  | 3,272명     | 39%    |
+
+</details>
