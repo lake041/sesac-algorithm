@@ -20,7 +20,7 @@ def solution(A, B):
 
 print(solution([10, 20], [5, 17]))
 
-print(any(num % 10 != 0 for num in [10, 20])) 
+# print(any(num % 10 != 0 for num in [10, 20])) 
 
 # def getMyDivisor(n):
 #     divisorsList = []

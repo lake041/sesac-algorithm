@@ -1,3 +1,4 @@
+from itertools import product
 import sys
 
 def main():
@@ -6,12 +7,7 @@ def main():
     for test_number in range(1, T+1):
         N = int(sys.stdin.readline())
         bod = [list(sys.stdin.readline().rstrip().split()) for _ in range(N)]
-
-        cannons = []
-        for y in range(N):
-            for x in range(N):
-                if bod[y][x] == "X":
-                    cannons.append((y, x))
+        cannons = [(y, x) for y, x in product(range(N), repeat=2) if bod[y][x] == "X"]
 
         def f(arr, p):
             nonlocal cnt, N
@@ -54,3 +50,34 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+3
+8
+L L H L L L L L
+L L H L L L L L
+L L Y L L L L L
+H H X L L L H H
+L L L L L L L L
+L L Y L L L L L
+L L Y L L L L L
+L L L L L L L L
+8
+L L H L L L L L
+L L H H L L L L
+L L Y H L L L L
+H H L L L L H H
+H H L X H Y H L
+L L Y H L L L L
+L L Y H L L L L
+L L L Y L L L L
+8
+L L H L L L L L
+L L H H L L L L
+L H Y X L Y H Y
+H H L L L L H H
+H L L H H Y H L
+L L Y H L L L L
+L L Y H L L L L
+L L L Y L L L L
+'''
