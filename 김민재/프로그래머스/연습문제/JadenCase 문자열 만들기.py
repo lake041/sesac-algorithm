@@ -9,5 +9,5 @@ def solution(s):
         else:
             save += char.upper() if save == "" else char.lower()
     ans += save
-        
+
     return ans
