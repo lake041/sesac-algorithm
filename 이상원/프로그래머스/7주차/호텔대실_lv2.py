@@ -19,7 +19,7 @@ from heapq import heappop, heappush
 def solution2(book_time):
     answer = 1
     
-    # "HH:MM" → HH * 60 + MM
+    # "HH:MM" -> HH * 60 + MM
     book_time_ref = [(int(s[:2]) * 60 + int(s[3:]), int(e[:2]) * 60 + int(e[3:])) for s, e in book_time]
     book_time_ref.sort()
     
