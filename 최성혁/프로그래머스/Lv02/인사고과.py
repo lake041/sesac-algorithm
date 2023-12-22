@@ -13,4 +13,6 @@ def solution(scores):
             if wanho_wa + wanho_pr < work_attitude + peer_review:
                 rank += 1
 
+
+
     return rank
