@@ -154,3 +154,21 @@
 | 금  | [혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)       |                                             | Lv. 2  | 3,272명     | 39%    |
 
 </details>
+
+<details>
+<summary>9주차 (12.25 ~ 12.29)</summary>
+
+|     | 제목                                                                                     |                        | 난이도 | 완료한 사람 | 정답률 |
+| --- | ---------------------------------------------------------------------------------------- | ---------------------- | ------ | ----------- | ------ |
+| 월  | [쿼드압축 후 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) | 월간 코드 챌린지 시즌1 | Lv. 2  | 7,613명     | 52%    |
+| 월  | [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)           | 월간 코드 챌린지 시즌1 | Lv. 2  | 11,194명    | 51%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
+| 수  | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)         |                        | Lv. 2  | 29,964명    | 77%    |
+| 수  | [교점에 별 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/87377)      | 위클리 챌린지          | Lv. 2  | 3,914명     | 31%    |
+| 목  | [하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946)           |                        | Lv. 2  | 7,088명     | 43%    |
+| 목  | [줄 서는 방법](https://school.programmers.co.kr/learn/courses/30/lessons/12936)          |                        | Lv. 2  | 5,978명     | 46%    |
+| 금  | [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905) |                        | Lv. 2  | 9,137명     | 44%    |
+| 금  | [가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)      |                        | Lv. 3  | 7,042명     | 42%    |
+
+</details>
