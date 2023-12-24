@@ -1,8 +1,5 @@
 
 
-
-
-
 def solution(scores):
     answer = 1
     wanho = scores[0]
