@@ -162,8 +162,8 @@
 | --- | ---------------------------------------------------------------------------------------- | ---------------------- | ------ | ----------- | ------ |
 | 월  | [쿼드압축 후 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) | 월간 코드 챌린지 시즌1 | Lv. 2  | 7,613명     | 52%    |
 | 월  | [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)           | 월간 코드 챌린지 시즌1 | Lv. 2  | 11,194명    | 51%    |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
+| 화  | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)            |                        | Lv. 2  | 4,351명     | 44%    |
+| 화  | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927)            |                        | Lv. 2  | 4,036명     | 41%    |
 | 수  | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)         |                        | Lv. 2  | 29,964명    | 77%    |
 | 수  | [교점에 별 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/87377)      | 위클리 챌린지          | Lv. 2  | 3,914명     | 31%    |
 | 목  | [하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946)           |                        | Lv. 2  | 7,088명     | 43%    |
