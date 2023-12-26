@@ -1,56 +1,35 @@
 from collections import deque
 from itertools import product
 
+dy = [-1, 0, 1, 0]
+dx = [0, 1, 0, -1]
+
 def solution(maps):
-    bod = []
-    for map in maps:
-        bod.append(list(map))
-    H, W = len(bod), len(bod[0])
+    bod = [list(row) for row in maps]
+    R, C = len(bod), len(bod[0])
     
-    sy, sx = 0, 0
-    ly, lx = 0, 0
-    for row, col in product(range(H), range(W)):
-        if bod[row][col] == 'S':
-            sy, sx = row, col
-        if bod[row][col] == 'L':
-            ly, lx = row, col
+    sy, sx = next((y, x) for y, x in product(range(R), range(C)) if bod[y][x] == "S")
 
-    dy = [-1, 0, 1, 0]
-    dx = [0, 1, 0, -1]
-            
-    q = deque([(sy, sx, 0)])
-    visited = [[False]*W for _ in range(H)]
-    answer1 = -1
+    q = deque([(sy, sx, 0, False)])
+    visited = [[False]*C for _ in range(R)]
+    visited[sy][sx] = True
+    
     while q:
-        y, x, cnt = q.popleft()
+        y, x, time, ok = q.popleft()
         
-        if bod[y][x]=='L':
-            answer1 = cnt
-            break
+        if ok and bod[y][x] == "E":
+            return time
+        
+        if not ok and bod[y][x] == "L":
+            q = deque([(y, x, time, True)])
+            visited = [[False]*C for _ in range(R)]
+            visited[y][x] = True
+            continue
         
         for u, v in zip(dy, dx):
             ny, nx = y+u, x+v
-            if 0<=ny<H and 0<=nx<W and bod[ny][nx]!='X' and visited[ny][nx]==False:
-                q.append((ny, nx, cnt+1))
+            if 0<=ny<R and 0<=nx<C and not visited[ny][nx] and bod[ny][nx]!="X":
+                q.append((ny, nx, time+1, ok))
                 visited[ny][nx] = True
-
-    q = deque([(ly, lx, 0)])
-    visited = [[False]*W for _ in range(H)]
-    answer2 = -1
-    while q:
-        y, x, cnt = q.popleft()
         
-        if bod[y][x]=='E':
-            answer2 = cnt
-            break
-        
-        for u, v in zip(dy, dx):
-            ny, nx = y+u, x+v
-            if 0<=ny<H and 0<=nx<W and bod[ny][nx]!='X' and visited[ny][nx]==False:
-                q.append((ny, nx, cnt+1))
-                visited[ny][nx] = True
-    
-    if answer1 == -1 or answer2 == -1:
-        return -1
-    else:
-        return answer1 + answer2
+    return -1
