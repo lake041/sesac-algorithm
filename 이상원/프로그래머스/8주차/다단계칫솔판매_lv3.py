@@ -1,6 +1,45 @@
+from collections import deque
 from collections import defaultdict
 import math
 def solution(enroll, referral, seller, amount):
+    answer = []
+    m_level = defaultdict(str) # 나의 이름: [상급자이름, 나의 레벨]
+    for i,j in zip(enroll, referral):
+        if j == "-":
+            m_level[i] = "center"
+        else:
+            m_level[i] = j
+
+    income = defaultdict(int)
+    q = deque(seller)
+    a = deque(amount)
+    while q:
+        s = q.popleft()
+        i = a.popleft()*100
+        fee = math.trunc(i*0.1) # 낼 수수료 120
+        income[s] += i-fee # 내가 번돈 중 90퍼 가져 1080
+        lst = m_level[s] # 나의 상급자
+        while lst != "": # 상급자가 없는 동안에
+            # fee = math.trunc(i*0.1) # 낼 수수료
+            income[lst] += fee - math.trunc(fee*0.1)  # 상급자에게 fee를 줘 108
+            fee = math.trunc(fee*0.1) # 상급자의 상급자에게 줄 fee로 fee를 바까
+            if fee < 1:
+                break
+            lst = m_level[lst] # lst를 나의 상급자로 바꿈
+
+    for name in enroll:
+        answer.append(income[name])
+
+    return answer
+
+print(solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"]	,["-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"],	["young", "john", "tod", "emily", "mary"],	[12, 4, 2, 5, 10]))
+
+
+
+
+
+
+def solution2(enroll, referral, seller, amount):
     answer = []
     m_level = defaultdict(list) # 나의 이름: [상급자이름, 나의 레벨]
     for i,j in zip(enroll, referral):
@@ -35,7 +74,7 @@ def solution(enroll, referral, seller, amount):
 
     return answer
 
-print(solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"]	,["-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"],	["young", "john", "tod", "emily", "mary"],	[12, 4, 2, 5, 10]))
+
 # print(solution(["sw","john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"]	,["-","-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"],	["young", "john", "tod", "emily", "mary","sw"],	[12, 4, 2, 5, 10,10]))
 
 
@@ -43,8 +82,8 @@ print(solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "youn
 # d["q"] = 3
 
 # print(d["q"]+5)
-from collections import deque
-def solution2(enroll, referral, seller, amount):
+
+def solution3(enroll, referral, seller, amount):
     answer = []
     m_level = defaultdict(list) # 나의 이름: [상급자이름, 나의 레벨]
     for i,j in zip(enroll, referral):
@@ -102,9 +141,10 @@ def solution3(enroll, referral, seller, amount):
         income[s] += i-fee # 내가 번돈 중 90퍼 가져 1080
         lst = m_level[s] # 나의 상급자
         while lst != "": # 상급자가 없는 동안에
-            # fee = math.trunc(i*0.1) # 낼 수수료
             income[lst] += fee - math.trunc(fee*0.1)  # 상급자에게 fee를 줘 108
             fee = math.trunc(fee*0.1) # 상급자의 상급자에게 줄 fee로 fee를 바까
+            if fee < 1:
+                break
             lst = m_level[lst] # lst를 나의 상급자로 바꿈
 
     for name in enroll:
