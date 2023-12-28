@@ -45,7 +45,6 @@ for b in bod:
     q.append([n, ""])
     while q:
         cur, ans = q.popleft()
-        
         if cur == target:
             answer = ans
             break
