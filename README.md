@@ -180,8 +180,8 @@
 | --- | ---------------------------------------------------------------------------------------- | --------------------------- | ------ | ----------- | ------ |
 | 월  | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)         | Summer/Winter Coding(~2018) | Lv. 2  | 22,124명    | 69%    |
 | 월  | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)      | Summer/Winter Coding(~2018) | Lv. 2  | 16,463명    | 69%    |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                             |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                             |        |             |        |
+| 화  | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)          |                             | Lv. 2  | 5,594명     | 48%    |
+| 화  | [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199)          |                             | Lv. 2  | 3,336명     | 43%    |
 | 수  | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)         |                             | Lv. 2  | 29,964명    | 77%    |
 | 수  | [교점에 별 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/87377)      | 위클리 챌린지               | Lv. 2  | 3,914명     | 31%    |
 | 목  | [하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946)           |                             | Lv. 2  | 7,088명     | 43%    |
