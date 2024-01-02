@@ -4,33 +4,28 @@ from itertools import product
 dy = [-1, 0, 1, 0]
 dx = [0, 1, 0, -1]
 
-def solution(maps):
-    bod = [list(map) for map in maps]
-    
-    H = len(bod)
-    W = len(bod[0])
-    visited = [[False]*W for _ in range(H)]
-    
-    answer = []
-    for y, x in product(range(H), range(W)):
-        if bod[y][x]=='X' or visited[y][x]==True:
+def solution(bod):
+    bod = [list(map(lambda x: int(x) if x.isnumeric() else 0, list(row))) for row in bod]
+    R, C = len(bod), len(bod[0])
+    visited = [[False]*C for _ in range(R)]
+
+    results = []
+    for y, x in product(range(R), range(C)):
+        if visited[y][x] or not bod[y][x]:
             continue
         q = deque([(y, x)])
         visited[y][x] = True
-        cnt = int(bod[y][x])
+        result = bod[y][x]
+        
         while q:
             y, x = q.popleft()
             for u, v in zip(dy, dx):
                 ny, nx = y+u, x+v
-                if 0<=ny<H and 0<=nx<W and bod[ny][nx]!='X' and not visited[ny][nx]:
+                if 0<=ny<R and 0<=nx<C and not visited[ny][nx] and bod[ny][nx]:
                     q.append((ny, nx))
                     visited[ny][nx] = True
-                    cnt += int(bod[ny][nx])
-        answer.append(cnt)
+                    result += bod[ny][nx]
+                    
+        results.append(result)
     
-    if answer:
-        answer.sort()
-    else:
-        answer = [-1]
-    
-    return answer
+    return sorted(results) if results else [-1]
