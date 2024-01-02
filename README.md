@@ -172,3 +172,21 @@
 | 금  | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)                               | [Class 4](https://solved.ac/class/4) | 골드 3 | 21,335명    | 23%    |
 
 </details>
+
+<details>
+<summary>10주차 (01.01 ~ 01.05)</summary>
+
+|     | 제목                                                                                     |                             | 난이도 | 완료한 사람 | 정답률 |
+| --- | ---------------------------------------------------------------------------------------- | --------------------------- | ------ | ----------- | ------ |
+| 월  | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)         | Summer/Winter Coding(~2018) | Lv. 2  | 22,124명    | 69%    |
+| 월  | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)      | Summer/Winter Coding(~2018) | Lv. 2  | 16,463명    | 69%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                             |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                             |        |             |        |
+| 수  | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)         |                             | Lv. 2  | 29,964명    | 77%    |
+| 수  | [교점에 별 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/87377)      | 위클리 챌린지               | Lv. 2  | 3,914명     | 31%    |
+| 목  | [하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946)           |                             | Lv. 2  | 7,088명     | 43%    |
+| 목  | [줄 서는 방법](https://school.programmers.co.kr/learn/courses/30/lessons/12936)          |                             | Lv. 2  | 5,978명     | 46%    |
+| 금  | [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905) |                             | Lv. 2  | 9,137명     | 44%    |
+| 금  | [가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)      |                             | Lv. 3  | 7,042명     | 42%    |
+
+</details>
