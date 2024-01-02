@@ -23,6 +23,4 @@ def solution(n, words):
         if fir ==0:
             fir = n
         answer = [fir , math.ceil(m/n)]
-    
-        
     return answer
