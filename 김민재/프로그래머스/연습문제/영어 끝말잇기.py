@@ -1,13 +1,11 @@
 def solution(n, words):
-    answer = [0, 0]
-    dic = dict()
-    for i in range(len(words)):
-        if i == 0:
-            dic[words[i]] = 1
-            continue
-        if words[i-1][-1] != words[i][0] or words[i] in dic:
-            answer = [i%n+1, i//n+1]
-            break
-        dic[words[i]] = 1
-            
-    return answer
+    visited = set()
+    last = words[0][0]
+    
+    for index, word in enumerate(words):
+        if word[0] != last or word in visited:
+            return [index%n + 1, index//n + 1]
+        visited.add(word)
+        last = word[-1]
+    
+    return [0, 0]
