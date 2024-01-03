@@ -190,3 +190,57 @@
 | 금  | [가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)      |                             | Lv. 3  | 7,042명     | 42%    |
 
 </details>
+
+<details>
+<summary>11주차 (01.08 ~ 01.12)</summary>
+
+|     | 제목                                                                                     |                        | 난이도 | 완료한 사람 | 정답률 |
+| --- | ---------------------------------------------------------------------------------------- | ---------------------- | ------ | ----------- | ------ |
+| 월  | [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)      |                        | Lv. 2  | 20,804명    | 68%    |
+| 월  | [거스름돈](https://school.programmers.co.kr/learn/courses/30/lessons/12907)              |                        | Lv. 3  | 4,148명     | 39%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
+| 수  | [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949)           |                        | Lv. 2  | 16,797명    | 64%    |
+| 수  | [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923)             |                        | Lv. 2  | 2,629명     | 35%    |
+| 목  | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)         | 월간 코드 챌린지 시즌2 | Lv. 2  | 14,262명    | 65%    |
+| 목  | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952)               |                        | Lv. 2  | 5,443명     | 36%    |
+| 금  | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |                        | Lv. 2  | 3,886명     | 37%    |
+| 금  | [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239)      |                        | Lv. 2  | 2,363명     | 39%    |
+
+</details>
+
+<details>
+<summary>12주차 (01.15 ~ 01.19)</summary>
+
+|     | 제목                                                                                     |                             | 난이도 | 완료한 사람 | 정답률 |
+| --- | ---------------------------------------------------------------------------------------- | --------------------------- | ------ | ----------- | ------ |
+| 월  | [야근 지수](https://school.programmers.co.kr/learn/courses/30/lessons/12927)             |                             | Lv. 3  | 9,254명     | 59%    |
+| 월  | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978)                  | Summer/Winter Coding(~2018) | Lv. 2  | 8,399명     | 46%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                             |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                             |        |             |        |
+| 수  | [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994)             | Summer/Winter Coding(~2018) | Lv. 2  | 10,952명    | 58%    |
+| 수  | [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)    |                             | Lv. 2  | 4,449명     | 47%    |
+| 목  | [최고의 집합](https://school.programmers.co.kr/learn/courses/30/lessons/12938)           |                             | Lv. 3  | 9,051명     | 58%    |
+| 목  | [스티커 모으기(2)](https://school.programmers.co.kr/learn/courses/30/lessons/12971)      | Summer/Winter Coding(~2018) | Lv. 3  | 3,504명     | 49%    |
+| 금  | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) |                             | Lv. 2  | 6,768명     | 57%    |
+| 금  | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |                             | Lv. 2  | 3,886명     | 37%    |
+
+</details>
+
+<details>
+<summary>13주차 (01.22 ~ 01.29)</summary>
+
+|     | 제목                                                                                    |                             | 난이도 | 완료한 사람 | 정답률 |
+| --- | --------------------------------------------------------------------------------------- | --------------------------- | ------ | ----------- | ------ |
+| 월  | [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993)             | Summer/Winter Coding(~2018) | Lv. 2  | 21,703명    | 57%    |
+| 월  | [2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885) | 월간 코드 챌린지 시즌2      | Lv. 2  | 6,481명     | 54%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                    |                             |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                    |                             |        |             |        |
+| 수  | [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)     |                             | Lv. 2  | 5,486명     | 56%    |
+| 수  | [기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979)          | Summer/Winter Coding(~2018) | Lv. 3  | 5,679명     | 52%    |
+| 목  | [숫자 게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987)            | Summer/Winter Coding(~2018) | Lv. 3  | 7,033명     | 54%    |
+| 목  | [124 나라의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12899)      |                             | Lv. 2  | 24,352명    | 50%    |
+| 금  | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704)            |                             | Lv. 2  | 4,735명     | 54%    |
+| 금  | [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239)     |                             | Lv. 2  | 2,363명     | 39%    |
+
+</details>
