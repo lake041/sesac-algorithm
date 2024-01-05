@@ -4,6 +4,11 @@ def isPalin(s):
         if s[i]!=s[(i+1)*-1]:
             return False
     return True
+
+def isPalindrome(x):
+    if x==x[::-1]: # 위 처럼 함수 만들어서 썼는데 이렇게 간단한 방법이 있음
+        return True
+
 def solution(s):
     answer=len(s)
     if isPalin(s):
