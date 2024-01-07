@@ -187,55 +187,83 @@
 <details>
 <summary>11주차 (01.08 ~ 01.12)</summary>
 
-|     | 제목                                                                                                         |        | 난이도 | 완료한 사람 | 정답률 |
-| --- | ------------------------------------------------------------------------------------------------------------ | ------ | ------ | ----------- | ------ |
-| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)                                  | BFS    | Lv. 3  | 17,963명    | 45%    |
-| 월  | [숨바꼭질 2](https://www.acmicpc.net/problem/12851)                                                          | BFS    | 골드 4 | 9,752명     | 25%    |
-| 월  | [아기상어](https://www.acmicpc.net/problem/16236)                                                            | BFS    | 골드 3 | 18,357명    | 43%    |
-| 월  | [년, 월, 성별 별 상품 구매 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131532) | SQL    | Lv. 4  | 8,345명     | 74%    |
-| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)                      | DFS    | Lv. 2  | 9,830명     | 48%    |
-| 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                               | DFS    | 골드 5 | 9,555명     | 28%    |
-| 화  | [알파벳](https://www.acmicpc.net/problem/1987)                                                               | DFS    | 골드 4 | 20,374명    | 28%    |
-| 화  | [보호소에서 중성화한 동물](https://school.programmers.co.kr/learn/courses/30/lessons/59045)                  | SQL    | Lv. 4  | 37,183명    | 85%    |
-| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                    | DP     | Lv. 3  | 14,620명    | 56%    |
-| 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                     | DP     | 골드 5 | 12,072명    | 46%    |
-| 수  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)                                          | DP     | 골드 4 | 20,481명    | 51%    |
-| 수  | [그룹별 조건에 맞는 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131124)    | SQL    | Lv. 4  | 8,811명     | 64%    |
-| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)                              | 그리디 | Lv. 2  | 23,431명    | 51%    |
-| 목  | [A와 B](https://www.acmicpc.net/problem/12904)                                                               | 그리디 | 골드 5 | 5,931명     | 46%    |
-| 목  | [카드 정렬하기](https://www.acmicpc.net/problem/1715)                                                        | 그리디 | 골드 4 | 16,267명    | 34%    |
-| 목  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)           | SQL    | Lv. 5  | 6,016명     | 41%    |
-| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)                               | 구현   | Lv. 3  | 8,273명     | 49%    |
-| 금  | [치킨 배달](https://www.acmicpc.net/problem/15686)                                                           | 구현   | 골드 5 | 24,080명    | 46%    |
-| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                      | 구현   | 골드 4 | 13,676명    | 54%    |
-| 금  | [취소되지 않은 진료 예약 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/132204)         | SQL    | Lv. 5  | 6,174명     | 74%    |
+|     | 제목                                                                                                                     |        | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------------------------------------ | ------ | ------ | ----------- | ------ |
+| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)                                              | BFS    | Lv. 3  | 17,963명    | 45%    |
+| 월  | [숨바꼭질 2](https://www.acmicpc.net/problem/12851)                                                                      | BFS    | 골드 4 | 9,752명     | 25%    |
+| 월  | [아기상어](https://www.acmicpc.net/problem/16236)                                                                        | BFS    | 골드 3 | 18,357명    | 43%    |
+| 월  | [특정 기간동안 대여 가능한 자동차들의 대여비용 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | SQL    | Lv. 4  | 4,633명     | 43%    |
+| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)                                  | DFS    | Lv. 2  | 9,830명     | 48%    |
+| 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                                           | DFS    | 골드 5 | 9,555명     | 28%    |
+| 화  | [알파벳](https://www.acmicpc.net/problem/1987)                                                                           | DFS    | 골드 4 | 20,374명    | 28%    |
+| 화  | [자동차 대여 기록 별 대여 금액 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151141)                 | SQL    | Lv. 4  | 3,348명     | 43%    |
+| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                                | DP     | Lv. 3  | 14,620명    | 56%    |
+| 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                                 | DP     | 골드 5 | 12,072명    | 46%    |
+| 수  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)                                                      | DP     | 골드 4 | 20,481명    | 51%    |
+| 수  | [저자 별 카테고리 별 매출액 집계하기](https://school.programmers.co.kr/learn/courses/30/lessons/144856)                  | SQL    | Lv. 4  | 7,758명     | 70%    |
+| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)                                          | 그리디 | Lv. 2  | 23,431명    | 51%    |
+| 목  | [A와 B](https://www.acmicpc.net/problem/12904)                                                                           | 그리디 | 골드 5 | 5,931명     | 46%    |
+| 목  | [카드 정렬하기](https://www.acmicpc.net/problem/1715)                                                                    | 그리디 | 골드 4 | 16,267명    | 34%    |
+| 목  | [주문량이 많은 아이스크림들 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/133027)                  | SQL    | Lv. 4  | 9,625명     | 69%    |
+| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)                                           | 구현   | Lv. 3  | 8,273명     | 49%    |
+| 금  | [치킨 배달](https://www.acmicpc.net/problem/15686)                                                                       | 구현   | 골드 5 | 24,080명    | 46%    |
+| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                                  | 구현   | 골드 4 | 13,676명    | 54%    |
+| 금  | [취소되지 않은 진료 예약 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/132204)                     | SQL    | Lv. 4  | 6,174명     | 74%    |
 
 </details>
 
 <details>
 <summary>12주차 (01.15 ~ 01.19)</summary>
 
-|     | 제목                                                                                                                     |          | 난이도 | 완료한 사람 | 정답률 |
-| --- | ------------------------------------------------------------------------------------------------------------------------ | -------- | ------ | ----------- | ------ |
-| 월  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
-| 월  | [이모티콘](https://www.acmicpc.net/problem/14226)                                                                        | BFS      | 골드 4 | 6,492명     | 34%    |
-| 월  | [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)                                                        | BFS      | 골드 3 | 3,633명     | 40%    |
-| 월  | [입양 시각 구하기(2)](https://school.programmers.co.kr/learn/courses/30/lessons/59413)                                   | SQL      | Lv. 4  | 29,083명    | 59%    |
-| 화  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
-| 화  | [트리의 지름](https://www.acmicpc.net/problem/1967)                                                                      | DFS      | 골드 4 | 13,287명    | 41%    |
-| 화  | [텀 프로젝트](https://www.acmicpc.net/problem/9466)                                                                      | DFS      | 골드 3 | 10,567명    | 24%    |
-| 화  | [특정 기간동안 대여 가능한 자동차들의 대여비용 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | SQL      | Lv. 4  | 4,633명     | 43%    |
-| 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
-| 수  | [뮤탈리스크](https://www.acmicpc.net/problem/12869)                                                                      | DP       | 골드 4 | 2,809명     | 47%    |
-| 수  | [팰린드롬?](https://www.acmicpc.net/problem/10942)                                                                       | DP       | 골드 4 | 10,830명    | 29%    |
-| 수  | [5월 식품들의 총매출 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131117)                         | SQL      | Lv. 4  | 9,283명     | 81%    |
-| 목  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
-| 목  | [단어 수학](https://www.acmicpc.net/problem/1339)                                                                        | 그리디   | 골드 4 | 11,508명    | 45%    |
-| 목  | [순회강연](https://www.acmicpc.net/problem/2109)                                                                         | 그리디   | 골드 3 | 3,692명     | 37%    |
-| 목  | [자동차 대여 기록 별 대여 금액 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151141)                 | SQL      | Lv. 4  | 3,348명     | 43%    |
-| 금  | [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)                                              | 이분탐색 | Lv. 3  | 5,458명     | 26%    |
-| 금  | [공유기 설치](https://www.acmicpc.net/problem/2110)                                                                      | 이분탐색 | 골드 4 | 16,762명    | 36%    |
-| 금  | [두 용액](https://www.acmicpc.net/problem/2470)                                                                          | 이분탐색 | 골드 5 | 12,311명    | 30%    |
-| 금  | [주문량이 많은 아이스크림들 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/133027)                  | SQL      | Lv. 4  | 9,625명     | 69%    |
+|     | 제목                                                                                                         |          | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------------------------ | -------- | ------ | ----------- | ------ |
+| 월  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 월  | [이모티콘](https://www.acmicpc.net/problem/14226)                                                            | BFS      | 골드 4 | 6,492명     | 34%    |
+| 월  | [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)                                            | BFS      | 골드 3 | 3,633명     | 40%    |
+| 월  | [오프라인/온라인 판매 데이터 통합하기](https://school.programmers.co.kr/learn/courses/30/lessons/131537)     | SQL      | Lv. 4  | 12,596명    | 61%    |
+| 화  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 화  | [트리의 지름](https://www.acmicpc.net/problem/1967)                                                          | DFS      | 골드 4 | 13,287명    | 41%    |
+| 화  | [텀 프로젝트](https://www.acmicpc.net/problem/9466)                                                          | DFS      | 골드 3 | 10,567명    | 24%    |
+| 화  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)           | SQL      | Lv. 5  | 6,016명     | 41%    |
+| 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 수  | [평범한 배낭](https://www.acmicpc.net/problem/12865)                                                         | DP       | 골드 5 | 28,860명    | 35%    |
+| 수  | [팰린드롬?](https://www.acmicpc.net/problem/10942)                                                           | DP       | 골드 4 | 10,830명    | 29%    |
+| 수  | [년, 월, 성별 별 상품 구매 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131532) | SQL      | Lv. 4  | 8,345명     | 74%    |
+| 목  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 목  | [단어 수학](https://www.acmicpc.net/problem/1339)                                                            | 그리디   | 골드 4 | 11,508명    | 45%    |
+| 목  | [순회강연](https://www.acmicpc.net/problem/2109)                                                             | 그리디   | 골드 3 | 3,692명     | 37%    |
+| 목  | [그룹별 조건에 맞는 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131124)    | SQL      | Lv. 4  | 8,811명     | 64%    |
+| 금  | [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)                                  | 이분탐색 | Lv. 3  | 5,458명     | 26%    |
+| 금  | [공유기 설치](https://www.acmicpc.net/problem/2110)                                                          | 이분탐색 | 골드 4 | 16,762명    | 36%    |
+| 금  | [두 용액](https://www.acmicpc.net/problem/2470)                                                              | 이분탐색 | 골드 5 | 12,311명    | 30%    |
+| 금  | [서울에 위치한 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339)         | SQL      | Lv. 4  | 4,633명     | 43%    |
+
+</details>
+
+<details>
+<summary>13주차 (01.22 ~ 01.26)</summary>
+
+|     | 제목                                                                                                          |           | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------------------------- | --------- | ------ | ----------- | ------ |
+| 월  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
+| 월  | [주사위 굴리기 2](https://www.acmicpc.net/problem/23288)                                                      | BFS       | 골드 3 | 2,584명     | 63%    |
+| 월  | [레이저 통신](https://www.acmicpc.net/problem/6087)                                                           | BFS       | 골드 3 | 2,381명     | 24%    |
+| 월  | [5월 식품들의 총매출 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131117)              | SQL       | Lv. 4  | 9,283명     | 81%    |
+| 화  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
+| 화  | [암호 만들기](https://www.acmicpc.net/problem/1759)                                                           | 백트래킹  | 골드 4 | 13,287명    | 41%    |
+| 화  | [스도쿠](https://www.acmicpc.net/problem/2580)                                                                | 백트래킹  | 골드 4 | 17,549명    | 26%    |
+| 월  | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) | SQL       | Lv. 4  | 8,779명     | 81%    |
+| 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
+| 수  | [동전 1](https://www.acmicpc.net/problem/2293)                                                                | DP        | 골드 5 | 21,538명    | 46%    |
+| 수  | [뮤탈리스크](https://www.acmicpc.net/problem/12869)                                                           | DP        | 골드 4 | 2,809명     | 47%    |
+| 월  | [우유와 요거트가 담긴 장바구니](https://school.programmers.co.kr/learn/courses/30/lessons/62284)              | SQL       | Lv. 4  | 14,272명    | 71%    |
+| 목  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
+| 목  | [수 묶기](https://www.acmicpc.net/problem/1744)                                                               | 그리디    | 골드 3 | 10,079명    | 32%    |
+| 목  | [저울](https://www.acmicpc.net/problem/2437)                                                                  | 그리디    | 골드 2 | 7,070명     | 39%    |
+| 목  | [입양 시각 구하기(2)](https://school.programmers.co.kr/learn/courses/30/lessons/59413)                        | SQL       | Lv. 4  | 29,083명    | 59%    |
+| 금  | [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870)                     | 투 포인터 | Lv. 2  | 6,355명     | 50%    |
+| 금  | [부분합](https://www.acmicpc.net/problem/1806)                                                                | 투 포인터 | 골드 4 | 17,184명    | 25%    |
+| 금  | [소수의 연속합](https://www.acmicpc.net/problem/1644)                                                         | 투 포인터 | 골드 3 | 12,817명    | 41%    |
+| 금  | [보호소에서 중성화한 동물](https://school.programmers.co.kr/learn/courses/30/lessons/59045)                   | SQL       | Lv. 4  | 37,183명    | 85%    |
 
 </details>
