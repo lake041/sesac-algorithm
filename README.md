@@ -252,11 +252,11 @@
 | 화  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
 | 화  | [암호 만들기](https://www.acmicpc.net/problem/1759)                                                           | 백트래킹  | 골드 4 | 13,287명    | 41%    |
 | 화  | [스도쿠](https://www.acmicpc.net/problem/2580)                                                                | 백트래킹  | 골드 4 | 17,549명    | 26%    |
-| 월  | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) | SQL       | Lv. 4  | 8,779명     | 81%    |
+| 화  | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) | SQL       | Lv. 4  | 8,779명     | 81%    |
 | 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
 | 수  | [동전 1](https://www.acmicpc.net/problem/2293)                                                                | DP        | 골드 5 | 21,538명    | 46%    |
 | 수  | [뮤탈리스크](https://www.acmicpc.net/problem/12869)                                                           | DP        | 골드 4 | 2,809명     | 47%    |
-| 월  | [우유와 요거트가 담긴 장바구니](https://school.programmers.co.kr/learn/courses/30/lessons/62284)              | SQL       | Lv. 4  | 14,272명    | 71%    |
+| 수  | [우유와 요거트가 담긴 장바구니](https://school.programmers.co.kr/learn/courses/30/lessons/62284)              | SQL       | Lv. 4  | 14,272명    | 71%    |
 | 목  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |           |        |             |        |
 | 목  | [수 묶기](https://www.acmicpc.net/problem/1744)                                                               | 그리디    | 골드 3 | 10,079명    | 32%    |
 | 목  | [저울](https://www.acmicpc.net/problem/2437)                                                                  | 그리디    | 골드 2 | 7,070명     | 39%    |
