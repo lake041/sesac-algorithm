@@ -191,13 +191,18 @@
 | --- | ---------------------------------------------------------------------------------------- | ---------------------- | ------ | ----------- | ------ |
 | 월  | [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)      |                        | Lv. 2  | 20,804명    | 68%    |
 | 월  | [거스름돈](https://school.programmers.co.kr/learn/courses/30/lessons/12907)              |                        | Lv. 3  | 4,148명     | 39%    |
+| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)         | BFS/DFS             | Lv. 3  | 17,963명    | 45%    |
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
+| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | 완전탐색            | Lv. 2  | 9,830명     | 48%    |
 | 수  | [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949)           |                        | Lv. 2  | 16,797명    | 64%    |
 | 수  | [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923)             |                        | Lv. 2  | 2,629명     | 35%    |
+| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)       | DP                  | Lv. 3  | 14,620명    | 56%    |
 | 목  | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)         | 월간 코드 챌린지 시즌2 | Lv. 2  | 14,262명    | 65%    |
 | 목  | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952)               |                        | Lv. 2  | 5,443명     | 36%    |
+| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)         | 탐욕법              | Lv. 2  | 23,431명    | 51%    |
 | 금  | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |                        | Lv. 2  | 3,886명     | 37%    |
 | 금  | [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239)      |                        | Lv. 2  | 2,363명     | 39%    |
+| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)        | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 8,273명     | 49%    |
 
 </details>
