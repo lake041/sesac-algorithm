@@ -22,8 +22,8 @@ def solution(coin, cards):
                 return True
         return False
 
-    round = 0
-    while coin or not_yet:
+    round = 1
+    while not_yet:
         update_possible()
         if remove_pair(initial, initial):
             round += 1
@@ -38,4 +38,3 @@ def solution(coin, cards):
 
     return round
 
-print(solution(4, [3, 6, 7, 2, 1, 10, 5, 9, 8, 12, 11, 4]))

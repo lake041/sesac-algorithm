@@ -187,22 +187,27 @@
 <details>
 <summary>11주차 (01.08 ~ 01.12)</summary>
 
-|     | 제목                                                                                     |                        | 난이도 | 완료한 사람 | 정답률 |
-| --- | ---------------------------------------------------------------------------------------- | ---------------------- | ------ | ----------- | ------ |
-| 월  | [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)      |                        | Lv. 2  | 20,804명    | 68%    |
-| 월  | [거스름돈](https://school.programmers.co.kr/learn/courses/30/lessons/12907)              |                        | Lv. 3  | 4,148명     | 39%    |
-| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)         | BFS/DFS             | Lv. 3  | 17,963명    | 45%    |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                     |                        |        |             |        |
-| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | 완전탐색            | Lv. 2  | 9,830명     | 48%    |
-| 수  | [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949)           |                        | Lv. 2  | 16,797명    | 64%    |
-| 수  | [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923)             |                        | Lv. 2  | 2,629명     | 35%    |
-| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)       | DP                  | Lv. 3  | 14,620명    | 56%    |
-| 목  | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)         | 월간 코드 챌린지 시즌2 | Lv. 2  | 14,262명    | 65%    |
-| 목  | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952)               |                        | Lv. 2  | 5,443명     | 36%    |
-| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)         | 탐욕법              | Lv. 2  | 23,431명    | 51%    |
-| 금  | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |                        | Lv. 2  | 3,886명     | 37%    |
-| 금  | [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239)      |                        | Lv. 2  | 2,363명     | 39%    |
-| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)        | 2019 카카오 개발자 겨울 인턴십 | Lv. 3  | 8,273명     | 49%    |
+|     | 제목                                                                                                         |        | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------------------------ | ------ | ------ | ----------- | ------ |
+| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)                                  | BFS    | Lv. 3  | 17,963명    | 45%    |
+| 월  | [숨바꼭질 2](https://www.acmicpc.net/problem/12851)                                                          | BFS    | 골드 4 | 9,752명     | 25%    |
+| 월  | [아기상어](https://www.acmicpc.net/problem/16236)                                                            | BFS    | 골드 3 | 18,357명    | 43%    |
+| 월  | [년, 월, 성별 별 상품 구매 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131532) | SQL    | Lv. 4  | 8,345명     | 74%    |
+| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)                      | DFS    | Lv. 2  | 9,830명     | 48%    |
+| 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                               | DFS    | 골드 5 | 9,555명     | 28%    |
+| 화  | [알파벳](https://www.acmicpc.net/problem/1987)                                                               | DFS    | 골드 4 | 20,374명    | 28%    |
+| 화  | [보호소에서 중성화한 동물](https://school.programmers.co.kr/learn/courses/30/lessons/59045)                  | SQL    | Lv. 4  | 37,183명    | 85%    |
+| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                    | DP     | Lv. 3  | 14,620명    | 56%    |
+| 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                     | DP     | 골드 5 | 12,072명    | 46%    |
+| 수  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)                                          | DP     | 골드 4 | 20,481명    | 51%    |
+| 수  | [그룹별 조건에 맞는 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131124)    | SQL    | Lv. 4  | 8,811명     | 64%    |
+| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)                              | 그리디 | Lv. 2  | 23,431명    | 51%    |
+| 목  | [A와 B](https://www.acmicpc.net/problem/12904)                                                               | 그리디 | 골드 5 | 5,931명     | 46%    |
+| 목  | [카드 정렬하기](https://www.acmicpc.net/problem/1715)                                                        | 그리디 | 골드 4 | 16,267명    | 34%    |
+| 목  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)           | SQL    | Lv. 5  | 6,016명     | 41%    |
+| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)                               | 구현   | Lv. 3  | 8,273명     | 49%    |
+| 금  | [치킨 배달](https://www.acmicpc.net/problem/15686)                                                           | 구현   | 골드 5 | 24,080명    | 46%    |
+| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                      | 구현   | 골드 4 | 13,676명    | 54퍼   |
+| 금  | [취소되지 않은 진료 예약 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/132204)         | SQL    | Lv. 5  | 6,174명     | 74%    |
 
 </details>
