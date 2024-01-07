@@ -207,7 +207,35 @@
 | 목  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)           | SQL    | Lv. 5  | 6,016명     | 41%    |
 | 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)                               | 구현   | Lv. 3  | 8,273명     | 49%    |
 | 금  | [치킨 배달](https://www.acmicpc.net/problem/15686)                                                           | 구현   | 골드 5 | 24,080명    | 46%    |
-| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                      | 구현   | 골드 4 | 13,676명    | 54퍼   |
+| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                      | 구현   | 골드 4 | 13,676명    | 54%    |
 | 금  | [취소되지 않은 진료 예약 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/132204)         | SQL    | Lv. 5  | 6,174명     | 74%    |
+
+</details>
+
+<details>
+<summary>12주차 (01.15 ~ 01.19)</summary>
+
+|     | 제목                                                                                                                     |          | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------------------------------------ | -------- | ------ | ----------- | ------ |
+| 월  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
+| 월  | [이모티콘](https://www.acmicpc.net/problem/14226)                                                                        | BFS      | 골드 4 | 6,492명     | 34%    |
+| 월  | [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)                                                        | BFS      | 골드 3 | 3,633명     | 40%    |
+| 월  | [입양 시각 구하기(2)](https://school.programmers.co.kr/learn/courses/30/lessons/59413)                                   | SQL      | Lv. 4  | 29,083명    | 59%    |
+| 화  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
+| 화  | [트리의 지름](https://www.acmicpc.net/problem/1967)                                                                      | DFS      | 골드 4 | 13,287명    | 41%    |
+| 화  | [텀 프로젝트](https://www.acmicpc.net/problem/9466)                                                                      | DFS      | 골드 3 | 10,567명    | 24%    |
+| 화  | [특정 기간동안 대여 가능한 자동차들의 대여비용 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | SQL      | Lv. 4  | 4,633명     | 43%    |
+| 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
+| 수  | [뮤탈리스크](https://www.acmicpc.net/problem/12869)                                                                      | DP       | 골드 4 | 2,809명     | 47%    |
+| 수  | [팰린드롬?](https://www.acmicpc.net/problem/10942)                                                                       | DP       | 골드 4 | 10,830명    | 29%    |
+| 수  | [5월 식품들의 총매출 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131117)                         | SQL      | Lv. 4  | 9,283명     | 81%    |
+| 목  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                               |          |        |             |        |
+| 목  | [단어 수학](https://www.acmicpc.net/problem/1339)                                                                        | 그리디   | 골드 4 | 11,508명    | 45%    |
+| 목  | [순회강연](https://www.acmicpc.net/problem/2109)                                                                         | 그리디   | 골드 3 | 3,692명     | 37%    |
+| 목  | [자동차 대여 기록 별 대여 금액 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151141)                 | SQL      | Lv. 4  | 3,348명     | 43%    |
+| 금  | [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)                                              | 이분탐색 | Lv. 3  | 5,458명     | 26%    |
+| 금  | [공유기 설치](https://www.acmicpc.net/problem/2110)                                                                      | 이분탐색 | 골드 4 | 16,762명    | 36%    |
+| 금  | [두 용액](https://www.acmicpc.net/problem/2470)                                                                          | 이분탐색 | 골드 5 | 12,311명    | 30%    |
+| 금  | [주문량이 많은 아이스크림들 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/133027)                  | SQL      | Lv. 4  | 9,625명     | 69%    |
 
 </details>
