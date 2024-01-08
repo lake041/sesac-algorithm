@@ -197,6 +197,9 @@
 | 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                                           | DFS    | 골드 5 | 9,555명     | 28%    |
 | 화  | [알파벳](https://www.acmicpc.net/problem/1987)                                                                           | DFS    | 골드 4 | 20,374명    | 28%    |
 | 화  | [자동차 대여 기록 별 대여 금액 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151141)                 | SQL    | Lv. 4  | 3,348명     | 43%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                                     |        |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                                     |        |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                                     |        |        |             |        |
 | 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                                | DP     | Lv. 3  | 14,620명    | 56%    |
 | 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                                 | DP     | 골드 5 | 12,072명    | 46%    |
 | 수  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)                                                      | DP     | 골드 4 | 20,481명    | 51%    |
@@ -225,6 +228,9 @@
 | 화  | [트리의 지름](https://www.acmicpc.net/problem/1967)                                                          | DFS      | 골드 4 | 13,287명    | 41%    |
 | 화  | [텀 프로젝트](https://www.acmicpc.net/problem/9466)                                                          | DFS      | 골드 3 | 10,567명    | 24%    |
 | 화  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)           | SQL      | Lv. 5  | 6,016명     | 41%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
 | 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
 | 수  | [평범한 배낭](https://www.acmicpc.net/problem/12865)                                                         | DP       | 골드 5 | 28,860명    | 35%    |
 | 수  | [팰린드롬?](https://www.acmicpc.net/problem/10942)                                                           | DP       | 골드 4 | 10,830명    | 29%    |
@@ -253,6 +259,9 @@
 | 화  | [암호 만들기](https://www.acmicpc.net/problem/1759)                                                           | 백트래킹 | 골드 4 | 13,287명    | 41%    |
 | 화  | [스도쿠](https://www.acmicpc.net/problem/2580)                                                                | 백트래킹 | 골드 4 | 17,549명    | 26%    |
 | 화  | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) | SQL      | Lv. 4  | 8,779명     | 81%    |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                          |          |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                          |          |        |             |        |
+| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                          |          |        |             |        |
 | 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                    |          |        |             |        |
 | 수  | [동전 1](https://www.acmicpc.net/problem/2293)                                                                | DP       | 골드 5 | 21,538명    | 46%    |
 | 수  | [뮤탈리스크](https://www.acmicpc.net/problem/12869)                                                           | DP       | 골드 4 | 2,809명     | 47%    |

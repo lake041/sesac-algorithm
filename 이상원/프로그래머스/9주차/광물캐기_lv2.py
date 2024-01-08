@@ -2,7 +2,6 @@ from collections import defaultdict
 def solution(picks, minerals):
     answer = 0
     cnt = 0
-    # print(solution([0,1,3], ["iron","stone","iron","stone","iron","iron","iron","iron","iron","iron"]))
     # minerals = ["diamond", "diamond","iron", "stone", "diamond", "iron", "iron", "diamond", "iron", "stone","diamond", "iron", "stone","diamond", "iron", "stone","iron", "stone","diamond", "iron", "stone","diamond", "iron", "stone","stone","diamond","stone","diamond",]
     for i in picks:
         cnt += i # 4
@@ -19,10 +18,7 @@ def solution(picks, minerals):
         for j in range(len(temp)):
             temp[j] = dic[temp[j]]
         lst.append(temp)
-    print(lst)
-    print(lst2)
     lst.sort(key = lambda x:sum(x), reverse=True)
-    print(lst)
     for i in range(len(lst)):
         div = 1
         if picks[0]:
@@ -43,8 +39,14 @@ def solution(picks, minerals):
 
 print(solution([0,1,3], ["iron","stone","iron","stone","iron","iron","iron","iron","iron","iron"]))
 
-from collections import deque
 
+
+
+
+
+
+## 성혁 코드(정답 아님)
+from collections import deque
 def solution(picks, minerals):
     answer = 0
     mineralq = deque(minerals)

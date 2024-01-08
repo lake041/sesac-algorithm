@@ -12,10 +12,5 @@ FROM (
         AND TO_DATE('2022-11-01', 'YYYY-MM-DD') <= end_date
     )
 )
-WHERE
-    500000 <= fee
-    AND fee < 2000000
-ORDER BY
-    fee DESC,
-    car_type ASC,
-    car_id DESC
+WHERE 500000 <= fee AND fee < 2000000
+ORDER BY fee DESC, car_type ASC, car_id DESC
