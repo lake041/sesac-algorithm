@@ -361,12 +361,3 @@
 | 금  | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)    | 2024 KAKAO WINTER INTERNSHIP | Lv. 1  | 337명       | 19%    |
 
 </details>
-
-| 화 | [알파벳](https://www.acmicpc.net/problem/1987) | DFS | 골드 4 | 20,374명 | 28% |
-| 화 | [자동차 대여 기록 별 대여 금액 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151141) | SQL | Lv. 4 | 3,348명 | 43% |
-
-| 화 | [텀 프로젝트](https://www.acmicpc.net/problem/9466) | DFS | 골드 3 | 10,567명 | 24% |
-| 화 | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534) | SQL | Lv. 5 | 6,016명 | 41% |
-
-| 화 | [스도쿠](https://www.acmicpc.net/problem/2580) | 백트래킹 | 골드 4 | 17,549명 | 26% |
-| 화 | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) | SQL | Lv. 4 | 8,779명 | 81% |
