@@ -234,8 +234,8 @@
 | 목  | [순회강연](https://www.acmicpc.net/problem/2109)                                                             | 그리디   | 골드 3 | 3,692명     | 37%    |
 | 목  | [그룹별 조건에 맞는 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131124)    | SQL      | Lv. 4  | 8,811명     | 64%    |
 | 금  | [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)                                  | 이분탐색 | Lv. 3  | 5,458명     | 26%    |
-| 금  | [공유기 설치](https://www.acmicpc.net/problem/2110)                                                          | 이분탐색 | 골드 4 | 16,762명    | 36%    |
 | 금  | [두 용액](https://www.acmicpc.net/problem/2470)                                                              | 이분탐색 | 골드 5 | 12,311명    | 30%    |
+| 금  | [공유기 설치](https://www.acmicpc.net/problem/2110)                                                          | 이분탐색 | 골드 4 | 16,762명    | 36%    |
 | 금  | [서울에 위치한 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339)         | SQL      | Lv. 4  | 4,633명     | 43%    |
 
 </details>
