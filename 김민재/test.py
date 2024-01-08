@@ -1,5 +1,5 @@
-a = (2, 0)
-b = (0, 3)
-print(list(map(max, zip(a, b))))
+x = set()
 
-print(tuple(map(max, zip(a, b))))
+x.add(1)
+
+print(x | {2})
