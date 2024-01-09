@@ -196,7 +196,7 @@
 | 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)                                  | DFS                 | Lv. 2  | 9,830명     | 48%    |
 | 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                                           | DFS                 | 골드 5 | 9,555명     | 28%    |
 | 화  | [알파벳](https://www.acmicpc.net/problem/1987)                                                                           | 모의고사 (알고리즘) | 골드 4 | 20,374명    | 28%    |
-| 화  | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)                                  | 모의고사 (알고리즘) | Lv. 1  | 337명       | 19%    |
+| 화  | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)                                  | 모의고사 (알고리즘) | Lv. 1  | 512명       | 22%    |
 | 화  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)                       | 모의고사 (SQL)      | Lv. 5  | 6,016명     | 41%    |
 | 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                                | DP                  | Lv. 3  | 14,620명    | 56%    |
 | 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                                 | DP                  | 골드 5 | 12,072명    | 46%    |
