@@ -187,29 +187,29 @@
 <details>
 <summary>11주차 (01.08 ~ 01.12)</summary>
 
-|     | 제목                                                                                                                     |        | 난이도 | 완료한 사람 | 정답률 |
-| --- | ------------------------------------------------------------------------------------------------------------------------ | ------ | ------ | ----------- | ------ |
-| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)                                              | BFS    | Lv. 3  | 17,963명    | 45%    |
-| 월  | [숨바꼭질 2](https://www.acmicpc.net/problem/12851)                                                                      | BFS    | 골드 4 | 9,752명     | 25%    |
-| 월  | [아기 상어](https://www.acmicpc.net/problem/16236)                                                                       | BFS    | 골드 3 | 18,357명    | 43%    |
-| 월  | [특정 기간동안 대여 가능한 자동차들의 대여비용 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | SQL    | Lv. 4  | 4,633명     | 43%    |
-| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)                                  | DFS    | Lv. 2  | 9,830명     | 48%    |
-| 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                                           | DFS    | 골드 5 | 9,555명     | 28%    |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                                     |        |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                                     |        |        |             |        |
-| 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                                     |        |        |             |        |
-| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                                | DP     | Lv. 3  | 14,620명    | 56%    |
-| 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                                 | DP     | 골드 5 | 12,072명    | 46%    |
-| 수  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)                                                      | DP     | 골드 4 | 20,481명    | 51%    |
-| 수  | [저자 별 카테고리 별 매출액 집계하기](https://school.programmers.co.kr/learn/courses/30/lessons/144856)                  | SQL    | Lv. 4  | 7,758명     | 70%    |
-| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)                                          | 그리디 | Lv. 2  | 23,431명    | 51%    |
-| 목  | [A와 B](https://www.acmicpc.net/problem/12904)                                                                           | 그리디 | 골드 5 | 5,931명     | 46%    |
-| 목  | [카드 정렬하기](https://www.acmicpc.net/problem/1715)                                                                    | 그리디 | 골드 4 | 16,267명    | 34%    |
-| 목  | [주문량이 많은 아이스크림들 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/133027)                  | SQL    | Lv. 4  | 9,625명     | 69%    |
-| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)                                           | 구현   | Lv. 3  | 8,273명     | 49%    |
-| 금  | [치킨 배달](https://www.acmicpc.net/problem/15686)                                                                       | 구현   | 골드 5 | 24,080명    | 46%    |
-| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                                  | 구현   | 골드 4 | 13,676명    | 54%    |
-| 금  | [취소되지 않은 진료 예약 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/132204)                     | SQL    | Lv. 4  | 6,174명     | 74%    |
+|     | 제목                                                                                                                     |                     | 난이도 | 완료한 사람 | 정답률 |
+| --- | ------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------ | ----------- | ------ |
+| 월  | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)                                              | BFS                 | Lv. 3  | 17,963명    | 45%    |
+| 월  | [숨바꼭질 2](https://www.acmicpc.net/problem/12851)                                                                      | BFS                 | 골드 4 | 9,752명     | 25%    |
+| 월  | [아기 상어](https://www.acmicpc.net/problem/16236)                                                                       | BFS                 | 골드 3 | 18,357명    | 43%    |
+| 월  | [특정 기간동안 대여 가능한 자동차들의 대여비용 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | SQL                 | Lv. 4  | 4,633명     | 43%    |
+| 화  | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)                                  | DFS                 | Lv. 2  | 9,830명     | 48%    |
+| 화  | [ABCDE](https://www.acmicpc.net/problem/13023)                                                                           | DFS                 | 골드 5 | 9,555명     | 28%    |
+| 화  | [알파벳](https://www.acmicpc.net/problem/1987)                                                                           | 모의고사 (알고리즘) | 골드 4 | 20,374명    | 28%    |
+| 화  | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)                                  | 모의고사 (알고리즘) | Lv. 1  | 512명       | 22%    |
+| 화  | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534)                       | 모의고사 (SQL)      | Lv. 5  | 6,016명     | 41%    |
+| 수  | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)                                                | DP                  | Lv. 3  | 14,620명    | 56%    |
+| 수  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)                                                                 | DP                  | 골드 5 | 12,072명    | 46%    |
+| 수  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)                                                      | DP                  | 골드 4 | 20,481명    | 51%    |
+| 수  | [저자 별 카테고리 별 매출액 집계하기](https://school.programmers.co.kr/learn/courses/30/lessons/144856)                  | SQL                 | Lv. 4  | 7,758명     | 70%    |
+| 목  | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)                                          | 그리디              | Lv. 2  | 23,431명    | 51%    |
+| 목  | [A와 B](https://www.acmicpc.net/problem/12904)                                                                           | 그리디              | 골드 5 | 5,931명     | 46%    |
+| 목  | [카드 정렬하기](https://www.acmicpc.net/problem/1715)                                                                    | 그리디              | 골드 4 | 16,267명    | 34%    |
+| 목  | [주문량이 많은 아이스크림들 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/133027)                  | SQL                 | Lv. 4  | 9,625명     | 69%    |
+| 금  | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)                                           | 구현                | Lv. 3  | 8,273명     | 49%    |
+| 금  | [치킨 배달](https://www.acmicpc.net/problem/15686)                                                                       | 구현                | 골드 5 | 24,080명    | 46%    |
+| 금  | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)                                                                  | 구현                | 골드 4 | 13,676명    | 54%    |
+| 금  | [취소되지 않은 진료 예약 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/132204)                     | SQL                 | Lv. 4  | 6,174명     | 74%    |
 
 </details>
 
@@ -356,8 +356,8 @@
 | --- | ------------------------------------------------------------------------------------------ | ---------------------------- | ------ | ----------- | ------ |
 | 월  | [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)        | 2021 KAKAO BLIND RECRUITMENT | Lv. 1  | 38,335명    | 50%    |
 | 화  | [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)     | 2022 KAKAO TECH INTERNSHIP   | Lv. 1  | 17,895명    | 50%    |
-| 목  | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | 2023 KAKAO BLIND RECRUITMENT | Lv. 1  | 14,446명    | 43%    |
-| 수  | [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)          | 2022 KAKAO BLIND RECRUITMENT | Lv. 1  | 30,303명    | 37%    |
-| 금  | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)    | 2024 KAKAO WINTER INTERNSHIP | Lv. 1  | 337명       | 19%    |
+| 수  | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | 2023 KAKAO BLIND RECRUITMENT | Lv. 1  | 14,446명    | 43%    |
+| 목  | [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)          | 2022 KAKAO BLIND RECRUITMENT | Lv. 1  | 30,303명    | 37%    |
+| 금  | [달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871)            |                              | Lv. 1  | 14,986명    | 42%    |
 
 </details>

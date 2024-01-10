@@ -1,5 +1,5 @@
-x = set()
+memo = []
 
-x.add(1)
-
-print(x | {2})
+memo.append({1})
+memo.append({2})
+print(memo)
