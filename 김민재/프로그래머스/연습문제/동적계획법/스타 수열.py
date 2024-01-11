@@ -15,9 +15,5 @@ def solution(a):
             elif index + 1 < L and a[index] != a[index+1]: 
                 memo[num][0] = index + 1
                 memo[num][1] += 2
-        
-        print(memo)
 
-        return max(memo[num][1] for num in range(L))
-
-solution([1, 1, 1, 2])
+    return max(memo[num][1] for num in range(L))
