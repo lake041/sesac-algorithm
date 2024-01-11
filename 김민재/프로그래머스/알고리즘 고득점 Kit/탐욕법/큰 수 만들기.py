@@ -1,21 +1,21 @@
+from collections import deque
+
 def solution(number, k):
-    number = list(number)
-    
+    number = deque(number)
     stack = []
-    cnt = 0
-    for num in number:
-        if not stack:
-            stack.append(num)
-            continue
-        if stack[-1] >= num:
-            stack.append(num)
-        else:
-            while stack and stack[-1] < num and cnt < k:
-                stack.pop()
-                cnt += 1
-            stack.append(num)
     
-    for _ in range(k-cnt):
+    while number and k:
+        if not stack:
+            stack.append(number.popleft())
+        elif stack[-1] >= number[0]:
+            stack.append(number.popleft())
+        elif stack[-1] < number[0]:
+            stack.pop()
+            k -= 1
+    
+    for _ in range(k):
         stack.pop()
+    
+    stack.extend(list(number))
     
     return ''.join(stack)
