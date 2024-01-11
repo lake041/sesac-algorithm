@@ -22,6 +22,3 @@ for y, x in product(range(N), range(N)):
     dp[y][x][2] = DtoL + LtoL if not bod[y][x] else 0
 
 print(sum(dp[-1][-1]))
-
-for row in dp:
-    print(row)
