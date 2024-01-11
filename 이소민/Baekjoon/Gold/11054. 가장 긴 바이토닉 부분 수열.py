@@ -1,22 +1,19 @@
-x = int(input())
-
-case = list(map(int, input().split()))
-
-increase = [1 for i in range(x)]
-
-for i in range(x):
+n = int(input())
+nums = list(map(int,input().split()))
+increase = [1 for _ in range(n)]
+decrease = [0 for _ in range(n)]
+for i in range(n):
     for j in range(i):
-        if case[i] > case[j]:
+        if nums[i] > nums[j]:
             increase[i] = max(increase[i], increase[j]+1)
 
-decrease = [1 for i in range(x)]
-for i in range(x-1, -1, -1):
-    for j in range(x-1, i, -1):
-        if case[i] > case[j]:
+for i in reversed(range(n)):
+    for j in reversed(range(i+1,n)):
+        if nums[i] > nums[j]:
             decrease[i] = max(decrease[i], decrease[j]+1)
 
-result = [0 for i in range(x)]
-for i in range(x):
-    result[i] = increase[i] + decrease[i] -1 
+result = [0 for _ in range(n)]
+for i in range(n):
+    result[i] = increase[i] + decrease[i]
 
 print(max(result))
