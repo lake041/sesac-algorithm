@@ -1,6 +1,9 @@
 from collections import deque
 from itertools import product
 
+dx = [0, 1, 0, -1]
+dy = [-1, 0, 1, 0]
+
 def solution(rectangle, characterX, characterY, itemX, itemY):
     rectangle = [[lx*2, ly*2, rx*2, ry*2] for lx, ly, rx, ry in rectangle]
     characterX, characterY, itemX, itemY = characterX*2, characterY*2, itemX*2, itemY*2
@@ -12,9 +15,6 @@ def solution(rectangle, characterX, characterY, itemX, itemY):
     for lx, ly, rx, ry in rectangle:
         for x, y in product(range(lx+1, rx), range(ly+1, ry)):
             dots.remove((x, y)) if (x, y) in dots else None
-    
-    dx = [0, 1, 0, -1]
-    dy = [-1, 0, 1, 0]
     
     q = deque([(characterX, characterY, 0)])
     visited = set((characterX, characterY))
