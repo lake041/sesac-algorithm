@@ -376,4 +376,7 @@ test.py
 test.sql
 test.txt
 
+# SWEA
+SW 알고리즘 특강 사전문제
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm,windows,macos
