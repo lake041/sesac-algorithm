@@ -1,25 +1,32 @@
-from itertools import product
+'''
+0. user_id의 모든 조합을 찾아낸 후
+1. 각 조합과 banned_id의 조합이 일치하는 Check 함수를 이용하여
+2. 맞으면 해당 조합을 tmp 리스트에 삽입
+3. tmp 리스트의 길이를 리턴하면 끝
+'''
+
+from itertools import permutations
+
+def check(user,banned_id):
+    for i in range(len(banned_id)):
+        if len(user[i]) != len(banned_id[i]):
+            return False
+
+        for j in range(len(user[i])):
+            if user[i][j] == banned_id[i][j] or banned_id[i][j] == "*":
+                continue
+            else:
+                return False
+    return True
+
 
 def solution(user_id, banned_id):
-    def is_match(u_id, b_id):
-        return all(ui == bi or bi == '*' for ui, bi in zip(u_id, b_id))
-
-    answer = set()
-    candidates = [set()]
-
-    for b_id in banned_id:
-        new_candidates = []
-        for u_id in user_id:
-            if len(u_id) != len(b_id):
-                continue
-
-            if is_match(u_id, b_id):
-                new_candidates.extend({*c, u_id} for c in candidates if u_id not in c)
-
-        candidates = new_candidates
-
-    for c in candidates:
-        answer.add(tuple(sorted(c)))
-
-    return len(answer)
+    user_list = list(permutations(user_id,len(banned_id)))
+    resultList = []
+    for user in user_list:
+        if check(user,banned_id):
+            if set(user) not in resultList:
+                resultList.append(set(user))
+    print(resultList)
+    return len(resultList)
 

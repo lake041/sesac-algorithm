@@ -1,15 +1,14 @@
 from itertools import combinations, permutations
 
-def possible(id, banned):
-    return len(id) == len(banned) and all(b == '*' or i == b for i, b in zip(id, banned))
+def possible(u, b):
+    return len(u)==len(b) and all(y in (x, "*") for x, y in zip(u, b))
 
 def solution(user_id, banned_id):
-    cnt = 0
-    for combination in combinations(range(len(user_id)), len(banned_id)):
-        for permu in permutations(combination, len(banned_id)):
-            permu = [user_id[index] for index in permu]
-            if all(possible(id, banned) for id, banned in zip(permu, banned_id)):
-                cnt += 1
+    ans = 0
+    for user_combi in combinations(user_id, len(banned_id)):
+        for user_permu in permutations(user_combi, len(banned_id)):
+            if all(possible(u, b) for u, b in zip(user_permu, banned_id)):
+                ans += 1
                 break
-
-    return cnt
+                
+    return ans
