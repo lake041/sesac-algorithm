@@ -218,11 +218,11 @@
 
 |     | 제목                                                                                                         |          | 난이도 | 완료한 사람 | 정답률 |
 | --- | ------------------------------------------------------------------------------------------------------------ | -------- | ------ | ----------- | ------ |
-| 월  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 월  | [아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)                               | BFS      | Lv. 3  | 3,764명     | 25%    |
 | 월  | [이모티콘](https://www.acmicpc.net/problem/14226)                                                            | BFS      | 골드 4 | 6,492명     | 34%    |
 | 월  | [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)                                            | BFS      | 골드 3 | 3,633명     | 40%    |
 | 월  | [오프라인/온라인 판매 데이터 통합하기](https://school.programmers.co.kr/learn/courses/30/lessons/131537)     | SQL      | Lv. 4  | 12,596명    | 61%    |
-| 화  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 화  | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)                           | DFS      | Lv. 2  | 21,309명    | 58%    |
 | 화  | [트리의 지름](https://www.acmicpc.net/problem/1967)                                                          | DFS      | 골드 4 | 13,287명    | 41%    |
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
