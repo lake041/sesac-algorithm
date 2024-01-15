@@ -227,11 +227,11 @@
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
 | 화  | [비공개](https://school.programmers.co.kr/learn/courses/30/lessons/)                                         |          |        |             |        |
-| 수  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 수  | [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)                                | DP       | Lv. 3  | 13,961명    | 26%    |
 | 수  | [평범한 배낭](https://www.acmicpc.net/problem/12865)                                                         | DP       | 골드 5 | 28,860명    | 35%    |
 | 수  | [팰린드롬?](https://www.acmicpc.net/problem/10942)                                                           | DP       | 골드 4 | 10,830명    | 29%    |
 | 수  | [년, 월, 성별 별 상품 구매 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131532) | SQL      | Lv. 4  | 8,345명     | 74%    |
-| 목  | [추가해주세요](https://school.programmers.co.kr/learn/courses/30/lessons/)                                   |          |        |             |        |
+| 목  | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)                                  | 그리디   | Lv. 2  | 29,337명    | 69%    |
 | 목  | [단어 수학](https://www.acmicpc.net/problem/1339)                                                            | 그리디   | 골드 4 | 11,508명    | 45%    |
 | 목  | [순회강연](https://www.acmicpc.net/problem/2109)                                                             | 그리디   | 골드 3 | 3,692명     | 37%    |
 | 목  | [그룹별 조건에 맞는 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131124)    | SQL      | Lv. 4  | 8,811명     | 64%    |
