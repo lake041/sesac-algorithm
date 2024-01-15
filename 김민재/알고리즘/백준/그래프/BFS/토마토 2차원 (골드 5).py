@@ -10,7 +10,7 @@ dy = [-1, 0, 1, 0]
 dx = [0, 1, 0, -1]
 
 ans = 0
-tomatos = deque([(y, x, 0) for y, x in product(range(N), range(M)) if bod[y][x]==1])
+tomatos = deque((y, x, 0) for y, x in product(range(N), range(M)) if bod[y][x]==1)
 
 while tomatos:
     y, x, day = tomatos.popleft()

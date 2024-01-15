@@ -11,7 +11,7 @@ dy = [-1, 0, 1, 0, 0, 0]
 dx = [0, 1, 0, -1, 0, 0]
 
 ans = 0
-tomatos = deque([(z, y, x, 0) for z, y, x in product(range(H), range(N), range(M)) if bod[z][y][x]==1])
+tomatos = deque((z, y, x, 0) for z, y, x in product(range(H), range(N), range(M)) if bod[z][y][x]==1)
 
 while tomatos:
     z, y, x, day = tomatos.popleft()

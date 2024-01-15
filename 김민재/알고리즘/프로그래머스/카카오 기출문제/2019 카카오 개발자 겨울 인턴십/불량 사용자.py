@@ -10,5 +10,5 @@ def solution(user_id, banned_id):
             if all(possible(u, b) for u, b in zip(user_permu, banned_id)):
                 ans += 1
                 break
-                
+            
     return ans
