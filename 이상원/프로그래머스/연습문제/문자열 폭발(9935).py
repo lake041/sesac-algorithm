@@ -3,18 +3,6 @@ import sys
 s = sys.stdin.readline().strip()
 b = sys.stdin.readline().strip()
 
-# while 1:
-#     if b in s:
-#         s = "".join(s.split(b))
-#     else:
-#         if s:
-#             print(s)
-#         else:
-#             print("FRULA")
-#         exit(0)
-
-
-
 r = []
 for i in s:
     r.append(i)
