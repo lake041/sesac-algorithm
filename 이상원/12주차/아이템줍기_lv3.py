@@ -44,3 +44,5 @@ def solution(rectangle, characterX, characterY, itemX, itemY):
 [[1,1,5,7]]	1	1	4	7	9
 [[2,1,7,5],[6,4,10,10]]	3	1	7	10	15
 [[2,2,5,5],[1,3,6,4],[3,1,4,6]]	1	4	6	3	10
+
+
