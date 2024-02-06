@@ -1,27 +1,23 @@
 from collections import deque
 def solution(people, limit):
     # people.sort()
-    q = deque(people)
+    # q = deque(people)
     answer = 0
-    while q:
-        pop = q.popleft()
-        if q and limit-pop < min(q):
+    while people:
+        pop = people.pop()
+        # pop = q.popleft()
+        if people and limit-pop < min(people):
             answer+=1
             continue
-        if not q:
+        if not people:
             answer+=1
             break
         
         for i in range(limit-pop, 0, -1):
-            if i in q:
-                q.remove(i)
+            if i in people:
+                people.remove(i)
                 answer+=1
-                break
-
-
-
-
-    
+                break    
     return answer
 
 print(solution([70, 50, 80, 50],	100))
@@ -32,25 +28,22 @@ def solution(people, limit):
     people.sort()
     while people:
         pop = people.pop()
+        if people and limit-pop < people[0]:
+            answer+=1
+            continue
         if not people:
             answer+=1
             break
         for i in range(len(people)):
-            rm = i-1
-            if people[i] + pop > limit:
-                if rm == -1:
-                    answer+=1
-                    break
-                else:
-                    people.removeAt(rm)
-                    answer+=1
-                    break
-
-
-    
-
-
+            if people[i] + pop == limit:
+                people.pop(i)
+                answer+=1
+                break
+            elif people[i] + pop > limit:
+                people.pop(i-1)
+                answer+=1
+                break
 
     
     return answer
-print(solution([70, 50, 80, 50],	100))
+print(solution([70, 50, 80, 50],100))
