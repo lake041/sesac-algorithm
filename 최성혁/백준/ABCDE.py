@@ -1,33 +1,46 @@
-def dfs(start, v, campLst, cnt):
-    v[start] = True
+# Start 부분 다르게해서 depth == 5인 경우 return 1
+# 끝까지 못찾으면 return 0
+'''
+5 6
+0 1
+1 4
+1 2
+1 3
+2 4
+3 4
+'''
+N,M = map(int,input().split())
+relations = [[] for _ in range(N)]
+visited = [False] * N
+flag = False
 
-    if cnt == 5:
-        return 1
+for i in range(M):
+    a,b = map(int,input().split())
+    relations[a].append(b)
+    relations[b].append(a)
 
-    for target in campLst[start]:
-        if not v[target]:
-            v[target] = True
-            if dfs(target, v, campLst, cnt + 1) == 1:
-                return 1
+def dfs(idx,depth):
+    global flag
+    visited[idx] = True
+    if depth == 4:
+        visited[idx] = False
+        flag = True
+        return
 
-    return 0
+    for i in relations[idx]:
+        if not visited[i]:
+            visited[i] = True
+            dfs(i,depth+1)
+            visited[i] = False
+
+for i in range(N):
+    dfs(i,0)
+    print(visited)
+    if flag:
+        break
 
 
-if __name__ == "__main__":
-    N, M = map(int, input().split())
-    flag = False  # flag를 False로 초기화
-    camp = [[] for _ in range(N)]
-
-    for _ in range(M):
-        a, b = map(int, input().split())
-        camp[b].append(a)
-        camp[a].append(b)
-
-    for i in range(N):
-        visited = [False] * N
-        visited[i] = True
-        if dfs(i, visited, camp, 1) == 1:
-            flag = True
-            break
-
-    print(1 if flag else 0)
+if flag:
+    print(1)
+else:
+    print(0)
