@@ -38,5 +38,6 @@ def solution(n, money):
     return dp[-1] % 1000000007
 
 
-solution(12,[1,3,5])
 
+print(solution(5,[1,2,5]))
+# solution(12,[1,3,5])
